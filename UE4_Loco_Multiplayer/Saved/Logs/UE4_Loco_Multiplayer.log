@@ -1,4 +1,4 @@
-﻿Log file open, 07/15/20 13:29:15
+﻿Log file open, 07/16/20 09:41:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: UE4_Loco_Multiplayer
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-599090435) SRandInit(-599090435).
+LogInit: Display: RandInit(-345274424) SRandInit(-345274424).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.137398
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 4.415769
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -191,771 +191,795 @@ LogInit: Compiled (64-bit): Jan 12 2018 02:04:55
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.18
-LogInit: Command line: 
-LogInit: Base directory: E:/GameDev/Unreal/Engine/UE_4.18/Engine/Binaries/Win64/
+LogInit: Command line:  
+LogInit: Base directory: e:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2020.07.15-07.29.21:467][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.15-07.29.21:467][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.07.15-07.29.21:576][  0]LogInit: Computer: ISHRAQ-PC
-[2020.07.15-07.29.21:577][  0]LogInit: User: farha
-[2020.07.15-07.29.21:577][  0]LogInit: CPU Page size=4096, Cores=2
-[2020.07.15-07.29.21:577][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.07.15-07.29.21:577][  0]LogMemory: Memory total: Physical=3.9GB (4GB approx)
-[2020.07.15-07.29.21:577][  0]LogMemory: Platform Memory Stats for Windows
-[2020.07.15-07.29.21:577][  0]LogMemory: Process Physical Memory: 272.31 MB used, 272.31 MB peak
-[2020.07.15-07.29.21:577][  0]LogMemory: Process Virtual Memory: 269.12 MB used, 269.12 MB peak
-[2020.07.15-07.29.21:577][  0]LogMemory: Physical Memory: 1885.05 MB used,  2091.96 MB free, 3977.01 MB total
-[2020.07.15-07.29.21:577][  0]LogMemory: Virtual Memory: 4759.67 MB used,  2091.96 MB free, 134217728.00 MB total
-[2020.07.15-07.29.22:047][  0]LogInit: Using OS detected language (en-US).
-[2020.07.15-07.29.22:047][  0]LogInit: Using OS detected locale (en-US).
-[2020.07.15-07.29.22:084][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.07.15-07.29.22:840][  0]LogInit: Setting process to per monitor DPI aware
-[2020.07.15-07.29.24:150][  0]LogD3D11RHI: D3D11 adapters:
-[2020.07.15-07.29.24:155][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 3000' (Feature Level 10_0)
-[2020.07.15-07.29.24:155][  0]LogD3D11RHI:       32/0/1632 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.07.15-07.29.24:200][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.07.15-07.29.24:201][  0]LogD3D11RHI:       0/0/1988 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.07.15-07.29.24:201][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.07.15-07.29.24:209][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.07.15-07.29.24:209][  0]LogD3D11RHI:     GPU DeviceId: 0x126 (for the marketing name, search the web for "GPU Device Id")
-[2020.07.15-07.29.24:209][  0]LogWindows: EnumDisplayDevices:
-[2020.07.15-07.29.24:209][  0]LogWindows:    0. 'Intel(R) HD Graphics 3000' (P:1 D:1)
-[2020.07.15-07.29.24:209][  0]LogWindows:    1. 'Intel(R) HD Graphics 3000' (P:0 D:0)
-[2020.07.15-07.29.24:209][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2020.07.15-07.29.24:209][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 3000
-[2020.07.15-07.29.24:209][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2020.07.15-07.29.24:209][  0]LogD3D11RHI:      Driver Date: Unknown
-[2020.07.15-07.29.24:209][  0]LogRHI: Texture pool is 593 MB (70% of 848 MB)
-[2020.07.15-07.29.24:213][  0]LogD3D11RHI: Async texture creation enabled
-[2020.07.15-07.29.24:232][  0]LogD3D11RHI: GPU Timing Frequency: 12.500000 (Debug: 2 1)
-[2020.07.15-07.29.24:232][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Intermediate/Shaders/WorkingDirectory/5616/).
-[2020.07.15-07.29.24:233][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/farha/AppData/Local/Temp/UnrealShaderWorkingDir/AF8012A24EC5D5446B167CB6FC62EFA6/'.
-[2020.07.15-07.29.24:233][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.07.15-07.29.28:165][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2020.07.15-07.29.28:234][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2020.07.15-07.29.28:304][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2020.07.15-07.29.28:373][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2020.07.15-07.29.28:460][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2020.07.15-07.29.28:552][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2020.07.15-07.29.28:623][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2020.07.15-07.29.28:693][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2020.07.15-07.29.28:812][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2020.07.15-07.29.28:909][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2020.07.15-07.29.29:007][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2020.07.15-07.29.29:108][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2020.07.15-07.29.29:187][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2020.07.15-07.29.29:261][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2020.07.15-07.29.29:406][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2020.07.15-07.29.29:406][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2020.07.15-07.29.29:497][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2020.07.15-07.29.29:562][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2020.07.15-07.29.29:739][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2020.07.15-07.29.29:779][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2020.07.15-07.29.29:868][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2020.07.15-07.29.29:945][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2020.07.15-07.29.30:029][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2020.07.15-07.29.30:100][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2020.07.15-07.29.30:100][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.07.15-07.29.31:276][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.07.15-07.29.32:467][  0]LogDerivedDataCache: Loaded boot cache 1.19s 75MB C:/Users/farha/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.07.15-07.29.32:467][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/farha/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2020.07.15-07.29.32:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.07.15-07.29.32:468][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.07.15-07.29.32:468][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.07.15-07.29.32:468][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.07.15-07.29.32:529][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.07.15-07.29.32:563][  0]LogDerivedDataCache: Using Local data cache path C:/Users/farha/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.07.15-07.29.32:570][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM4
-[2020.07.15-07.29.32:571][  0]LogSlate: Using Freetype 2.6.0
-[2020.07.15-07.29.32:571][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.15-07.29.32:571][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.07.15-07.29.35:306][  0]LogInit: Selected Device Profile: [Windows]
-[2020.07.15-07.29.36:155][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2020.07.15-07.29.36:224][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2020.07.15-07.29.36:224][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.07.15-07.29.36:224][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2020.07.15-07.29.36:224][  0]LogMeshReduction: No automatic mesh merging module available
-[2020.07.15-07.29.36:224][  0]LogMeshMerging: No automatic mesh merging module available
-[2020.07.15-07.29.36:322][  0]LogNetVersion: UE4_Loco_Multiplayer , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1342504481)
-[2020.07.15-07.29.36:847][  0]LogAssetRegistry: FAssetRegistry took 0.0278 seconds to start up
-[2020.07.15-07.29.41:734][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.303862 seconds
-[2020.07.15-07.29.41:742][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2020.07.15-07.29.41:742][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2020.07.15-07.29.41:742][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.07.15-07.29.41:871][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2020.07.15-07.29.56:688][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.07.15-07.29.56:767][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.07.15-07.29.58:275][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2020.07.15-07.29.59:057][  0]SourceControl: Source control is disabled
-[2020.07.15-07.29.59:057][  0]SourceControl: Source control is disabled
-[2020.07.15-07.29.59:158][  0]SourceControl: Source control is disabled
-[2020.07.15-07.29.59:253][  0]SourceControl: Source control is disabled
-[2020.07.15-07.30.01:335][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.07.15-07.30.02:025][  0]LogOcInput: OculusInput pre-init called
-[2020.07.15-07.30.02:564][  0]LogEngine: Initializing Engine...
-[2020.07.15-07.30.02:568][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.07.15-07.30.03:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2020.07.15-07.30.03:039][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2020.07.15-07.30.03:245][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.07.15-07.30.03:272][  0]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.30.03:369][  0]LogInit: FAudioDevice initialized.
-[2020.07.15-07.30.03:663][  0]LogDerivedDataCache: Saved boot cache 0.29s 75MB C:/Users/farha/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2020.07.15-07.30.03:709][  0]LogInit: Texture streaming: Enabled
-[2020.07.15-07.30.03:920][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.07.15-07.30.03:920][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={EDCE6998-48EF-C8E4-091D-A0B32476FB4C}
-[2020.07.15-07.30.04:169][  0]LogInit: Transaction tracking system initialized
-[2020.07.15-07.30.04:707][  0]BlueprintLog: New page: Editor Load
-[2020.07.15-07.30.06:354][  0]LocalizationService: Localization service is disabled
-[2020.07.15-07.30.08:262][  0]LogConsoleResponse: Display: 
-[2020.07.15-07.30.10:052][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.07.15-07.30.10:052][  0]LogCook: Display: Mobile HDR setting 1
-[2020.07.15-07.30.10:052][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2020.07.15-07.30.10:861][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/' took 0.04s
-[2020.07.15-07.30.12:573][  0]SourceControl: Source control is disabled
-[2020.07.15-07.30.12:573][  0]Cmd: MAP LOAD FILE="../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2020.07.15-07.30.12:573][  0]LogEditorServer: Warning: Can't find file '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
-[2020.07.15-07.30.12:573][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.07.15-07.30.12:625][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 51.048ms to complete.
-[2020.07.15-07.30.12:625][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.052
-[2020.07.15-07.30.13:069][  0]LogCollectionManager: Loaded 0 collections in 0.002120 seconds
-[2020.07.15-07.30.13:163][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Collections/' took 0.01s
-[2020.07.15-07.30.13:164][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Developers/farha/Collections/' took 0.01s
-[2020.07.15-07.30.13:164][  0]LogFileCache: Scanning file cache for directory 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Collections/' took 0.01s
-[2020.07.15-07.30.13:164][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2020.07.15-07.30.13:178][  0]LogContentBrowser: Native class hierarchy populated in 0.0145 seconds. Added 2364 classes and 521 folders.
-[2020.07.15-07.30.13:264][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.07.15-07.30.14:624][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.07.15-07.30.14:629][  0]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.07.15-07.30.14:638][  0]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.07.15-07.30.14:862][  0]LogRenderer: Reallocating scene render targets to support 1056x656 Format 9 NumSamples 1 (Frame:1).
-[2020.07.15-07.30.15:616][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2020.07.15-07.30.15:616][  0]LogLoad: (Engine Initialization) Total time: 67.10 seconds
-[2020.07.15-07.30.15:616][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.07.15-07.30.15:616][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2020.07.15-07.30.15:652][  0]LogContentStreaming: Texture pool size now 800 MB
-[2020.07.15-07.30.17:460][  3]LogAssetRegistry: Asset discovery search completed in 40.6348 seconds
-[2020.07.15-07.30.17:463][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2020.07.15-07.30.17:463][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000088 seconds (updated 0 objects)
-[2020.07.15-07.30.17:493][  3]LogSlate: Took 0.017647 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.07.15-07.31.05:064][ 62]LogSlate: Took 0.000238 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.07.15-07.31.05:619][ 62]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 116 classes and 0 folders.
-[2020.07.15-07.31.07:313][ 62]LogSlate: Took 0.015383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.07.15-07.31.07:328][ 62]LogSlate: Took 0.012977 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.07.15-07.31.10:542][242]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2020.07.15-07.31.15:820][355]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.31.15:985][355]Cmd: MAP LOAD FILE="../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=2
-[2020.07.15-07.31.15:985][355]LightingResults: New page: Lighting Build
-[2020.07.15-07.31.16:041][355]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
-[2020.07.15-07.31.16:042][355]LoadErrors: New page: Loading map: NewMap.umap
-[2020.07.15-07.31.16:043][355]MapCheck: New page: Map Check
-[2020.07.15-07.31.16:043][355]LightingResults: New page: Lighting Build
-[2020.07.15-07.31.16:207][355]LogEditorServer: Finished looking for orphan Actors (0.001 secs)
-[2020.07.15-07.31.16:306][355]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.07.15-07.31.16:507][355]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 200.569ms to complete.
-[2020.07.15-07.31.16:509][355]LogFileHelpers: Loading map 'NewMap' took 0.524
-[2020.07.15-07.31.16:510][355]LogSlate: Took 0.000279 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.07.15-07.31.19:673][447]LogSlate: Took 0.797785 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
-[2020.07.15-07.31.22:512][611]Cmd: t.MaxFPS 30
-[2020.07.15-07.31.22:512][611]t.MaxFPS = "30"
-[2020.07.15-07.31.24:064][645]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
-[2020.07.15-07.31.24:395][653]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.31.25:283][653]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.31.25:284][653]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:31:25 PM)
-[2020.07.15-07.31.25:284][653]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.31.25:300][653]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016084s)
-[2020.07.15-07.31.25:302][653]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.31.25:303][653]LogPlayLevel: PIE: World Init took: (0.002373s)
-[2020.07.15-07.31.25:303][653]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.018979s)
-[2020.07.15-07.31.25:338][653]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.31.25:346][653]LogInit: FAudioDevice initialized.
-[2020.07.15-07.31.25:392][653]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.31.25:393][653]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.31.25
-[2020.07.15-07.31.25:394][653]LogWorld: Bringing up level for play took: 0.001253
-[2020.07.15-07.31.25:450][653]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 11 classes and 0 folders.
-[2020.07.15-07.31.25:454][653]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.326
-[2020.07.15-07.31.26:946][688]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Player
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Player_HUD_C_2.WidgetTree_6.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:009F
-[2020.07.15-07.31.26:946][688]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Player from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None trying to read property K2Node_CustomEvent_Player
-[2020.07.15-07.31.26:947][688]LogScript: Warning: Accessed None
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Player_HUD_C_2.WidgetTree_6.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:0080
-[2020.07.15-07.31.26:947][688]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None
-[2020.07.15-07.31.28:255][728]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Player
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Player_HUD_C_2.WidgetTree_6.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:009F
-[2020.07.15-07.31.28:255][728]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Player from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None trying to read property K2Node_CustomEvent_Player
-[2020.07.15-07.31.28:255][728]LogScript: Warning: Accessed None
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Player_HUD_C_2.WidgetTree_6.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:0080
-[2020.07.15-07.31.28:256][728]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None
-[2020.07.15-07.31.30:088][783]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Player
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Player_HUD_C_2.WidgetTree_6.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:009F
-[2020.07.15-07.31.30:088][783]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Player from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None trying to read property K2Node_CustomEvent_Player
-[2020.07.15-07.31.30:088][783]LogScript: Warning: Accessed None
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_0.Player_HUD_C_2.WidgetTree_6.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:0080
-[2020.07.15-07.31.30:088][783]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None
-[2020.07.15-07.31.36:384][930]LogSlate: Took 0.011024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.07.15-07.32.37:434][619]BlueprintLog: New page: Compile MeleSelection_WB
-[2020.07.15-07.32.38:499][619]LogSavePackage: Save=185.54ms
-[2020.07.15-07.32.38:499][619]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/MeleSelection_WB67A3BDFB48086AFBA0641F9AD0608F59.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset'
-[2020.07.15-07.32.38:519][619]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset
-[2020.07.15-07.32.39:076][632]LogSavePackage: Save=91.54ms
-[2020.07.15-07.32.39:076][632]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/MeleSelection_WB6839B4AF4879716E168CCAA37EEA031F.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset'
-[2020.07.15-07.32.39:077][632]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset
-[2020.07.15-07.32.40:373][671]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.32.40:459][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.32.40:459][671]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:32:40 PM)
-[2020.07.15-07.32.40:459][671]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.32.40:473][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014142s)
-[2020.07.15-07.32.40:475][671]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.32.40:475][671]LogPlayLevel: PIE: World Init took: (0.001793s)
-[2020.07.15-07.32.40:475][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.016480s)
-[2020.07.15-07.32.40:512][671]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.32.40:520][671]LogInit: FAudioDevice initialized.
-[2020.07.15-07.32.40:558][671]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.32.40:559][671]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.32.40
-[2020.07.15-07.32.40:560][671]LogWorld: Bringing up level for play took: 0.000974
-[2020.07.15-07.32.40:564][671]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.564
-[2020.07.15-07.32.41:582][697]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Player
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.Player_HUD_C_5.WidgetTree_26.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:009F
-[2020.07.15-07.32.41:583][697]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Player from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None trying to read property K2Node_CustomEvent_Player
-[2020.07.15-07.32.41:583][697]LogScript: Warning: Accessed None
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.Player_HUD_C_5.WidgetTree_26.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:0080
-[2020.07.15-07.32.41:583][697]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None
-[2020.07.15-07.32.42:517][725]LogScript: Warning: Accessed None trying to read property K2Node_CustomEvent_Player
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.Player_HUD_C_5.WidgetTree_26.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:009F
-[2020.07.15-07.32.42:517][725]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property K2Node_CustomEvent_Player from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None trying to read property K2Node_CustomEvent_Player
-[2020.07.15-07.32.42:518][725]LogScript: Warning: Accessed None
-	MeleSelection_WB_C /Engine/Transient.UnrealEdEngine_0:GameInstance_1.Player_HUD_C_5.WidgetTree_26.MeleSelection_WB
-	Function /Game/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.MeleSelection_WB_C:ExecuteUbergraph_MeleSelection_WB:0080
-[2020.07.15-07.32.42:518][725]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_MeleSelection_WB' from node: ForEachLoop in graph: EventGraph in object: MeleSelection_WB with description: Accessed None
-[2020.07.15-07.33.10:393][531]BlueprintLog: New page: Compile Player_HUD
-[2020.07.15-07.33.10:739][531]LogSavePackage: Save=148.18ms
-[2020.07.15-07.33.10:741][531]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Player_HUD98413BB741CC42660839D4A0EA5F188B.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_HUD.uasset'
-[2020.07.15-07.33.10:747][531]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_HUD.uasset
-[2020.07.15-07.33.11:242][542]LogSavePackage: Save=90.06ms
-[2020.07.15-07.33.11:242][542]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Player_HUDE69016864C55370B3531DFB563AD811D.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_HUD.uasset'
-[2020.07.15-07.33.11:243][542]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_HUD.uasset
-[2020.07.15-07.33.13:472][609]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.33.13:511][609]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.33.13:511][609]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:33:13 PM)
-[2020.07.15-07.33.13:511][609]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.33.13:525][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013776s)
-[2020.07.15-07.33.13:526][609]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.33.13:527][609]LogPlayLevel: PIE: World Init took: (0.001874s)
-[2020.07.15-07.33.13:527][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.016253s)
-[2020.07.15-07.33.13:566][609]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.33.13:573][609]LogInit: FAudioDevice initialized.
-[2020.07.15-07.33.13:609][609]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.33.13:610][609]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.33.13
-[2020.07.15-07.33.13:610][609]LogWorld: Bringing up level for play took: 0.000975
-[2020.07.15-07.33.13:615][609]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.486
-[2020.07.15-07.33.49:761][426]BlueprintLog: New page: Compile Mele_Slot_WB
-[2020.07.15-07.33.50:274][426]LogSavePackage: Save=149.24ms
-[2020.07.15-07.33.50:275][426]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Mele_Slot_WB0F69D45B4C1CC6E32A2FCF8583B52752.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset'
-[2020.07.15-07.33.50:296][426]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset
-[2020.07.15-07.33.50:745][435]LogSavePackage: Save=88.14ms
-[2020.07.15-07.33.50:745][435]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Mele_Slot_WBB323462F4D1D3585A1AFA2ACF978ADAA.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset'
-[2020.07.15-07.33.50:747][435]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset
-[2020.07.15-07.33.52:664][493]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.33.52:770][493]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.33.52:770][493]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:33:52 PM)
-[2020.07.15-07.33.52:770][493]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.33.52:784][493]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014176s)
-[2020.07.15-07.33.52:786][493]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.33.52:786][493]LogPlayLevel: PIE: World Init took: (0.001887s)
-[2020.07.15-07.33.52:787][493]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.016760s)
-[2020.07.15-07.33.52:845][493]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.33.52:972][493]LogInit: FAudioDevice initialized.
-[2020.07.15-07.33.53:009][493]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.33.53:010][493]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.33.53
-[2020.07.15-07.33.53:010][493]LogWorld: Bringing up level for play took: 0.001013
-[2020.07.15-07.33.53:015][493]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.113
-[2020.07.15-07.34.14:510][ 95]LogSavePackage: Save=107.64ms
-[2020.07.15-07.34.14:520][ 95]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Mele_Slot_WBB4FE0ED6413224FC688033A79DEA7E1C.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset'
-[2020.07.15-07.34.14:521][ 95]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset
-[2020.07.15-07.34.40:350][779]BlueprintLog: New page: Compile MeleSelection_WB
-[2020.07.15-07.34.41:620][779]LogSavePackage: Save=186.08ms
-[2020.07.15-07.34.41:621][779]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/MeleSelection_WB18A420494B35A4B53DEBF1BB7E532F62.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset'
-[2020.07.15-07.34.41:624][779]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset
-[2020.07.15-07.34.42:018][784]LogSavePackage: Save=165.67ms
-[2020.07.15-07.34.42:018][784]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/MeleSelection_WB0669804646B3AC014A5062A49D9878EE.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset'
-[2020.07.15-07.34.42:019][784]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset
-[2020.07.15-07.34.45:076][876]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.34.45:119][876]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.34.45:119][876]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:34:45 PM)
-[2020.07.15-07.34.45:119][876]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.34.45:133][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014179s)
-[2020.07.15-07.34.45:135][876]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.34.45:136][876]LogPlayLevel: PIE: World Init took: (0.001957s)
-[2020.07.15-07.34.45:136][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.016836s)
-[2020.07.15-07.34.45:175][876]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.34.45:193][876]LogInit: FAudioDevice initialized.
-[2020.07.15-07.34.45:228][876]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.34.45:229][876]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.34.45
-[2020.07.15-07.34.45:230][876]LogWorld: Bringing up level for play took: 0.000991
-[2020.07.15-07.34.45:234][876]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.106
-[2020.07.15-07.35.04:329][429]BlueprintLog: New page: Compile Mele_Slot_WB
-[2020.07.15-07.35.04:575][429]LogSavePackage: Save=108.66ms
-[2020.07.15-07.35.04:575][429]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Mele_Slot_WB7B8255184B93CD6484DF759DB38B2991.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset'
-[2020.07.15-07.35.04:578][429]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset
-[2020.07.15-07.35.05:055][439]LogSavePackage: Save=91.25ms
-[2020.07.15-07.35.05:055][439]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Mele_Slot_WB9D93679749CC3493EBB9B1B49D072A7A.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset'
-[2020.07.15-07.35.05:056][439]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset
-[2020.07.15-07.35.06:304][477]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.35.06:384][477]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.35.06:384][477]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:35:06 PM)
-[2020.07.15-07.35.06:384][477]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.35.06:398][477]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013616s)
-[2020.07.15-07.35.06:399][477]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.35.06:400][477]LogPlayLevel: PIE: World Init took: (0.001675s)
-[2020.07.15-07.35.06:400][477]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.015770s)
-[2020.07.15-07.35.06:468][477]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.35.06:475][477]LogInit: FAudioDevice initialized.
-[2020.07.15-07.35.06:507][477]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.35.06:508][477]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.35.06
-[2020.07.15-07.35.06:509][477]LogWorld: Bringing up level for play took: 0.000977
-[2020.07.15-07.35.06:513][477]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.615
-[2020.07.15-07.35.25:574][875]LogSavePackage: Save=2140.05ms
-[2020.07.15-07.35.25:575][875]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Sword_BPE1D1A2EB4330FA20018F0BB62619D85A.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Sword_BP.uasset'
-[2020.07.15-07.35.25:607][875]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Sword_BP.uasset
-[2020.07.15-07.36.00:665][807]BlueprintLog: New page: Compile Mele_Slot_WB
-[2020.07.15-07.36.00:926][807]LogSavePackage: Save=106.53ms
-[2020.07.15-07.36.00:926][807]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Mele_Slot_WB22D190C643961FF3FB717AADC7694452.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset'
-[2020.07.15-07.36.00:928][807]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset
-[2020.07.15-07.36.01:679][825]LogSavePackage: Save=100.79ms
-[2020.07.15-07.36.01:679][825]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Mele_Slot_WB28254A68490D07B31A25978683C5889B.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset'
-[2020.07.15-07.36.01:680][825]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/Mele_Slot_WB.uasset
-[2020.07.15-07.36.05:932][953]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.36.05:997][953]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.36.05:997][953]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:36:05 PM)
-[2020.07.15-07.36.05:997][953]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.36.06:011][953]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014229s)
-[2020.07.15-07.36.06:013][953]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.36.06:014][953]LogPlayLevel: PIE: World Init took: (0.002276s)
-[2020.07.15-07.36.06:014][953]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017134s)
-[2020.07.15-07.36.06:054][953]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.36.06:062][953]LogInit: FAudioDevice initialized.
-[2020.07.15-07.36.06:099][953]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.36.06:101][953]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.36.06
-[2020.07.15-07.36.06:101][953]LogWorld: Bringing up level for play took: 0.001134
-[2020.07.15-07.36.06:107][953]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.979
-[2020.07.15-07.37.21:052][ 16]BlueprintLog: New page: Compile Player_CharacterBP
-[2020.07.15-07.37.25:914][ 16]LogSavePackage: Save=486.94ms
-[2020.07.15-07.37.25:914][ 16]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Player_CharacterBP466B79EA4945AF88BF6376AA6D5367C3.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset'
-[2020.07.15-07.37.25:931][ 16]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset
-[2020.07.15-07.37.26:953][ 30]LogSavePackage: Save=443.33ms
-[2020.07.15-07.37.26:953][ 30]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Player_CharacterBPCF4F5E3A48D6C03049E1208545E209B5.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset'
-[2020.07.15-07.37.26:954][ 30]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset
-[2020.07.15-07.37.35:091][264]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.37.35:134][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.37.35:135][264]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:37:35 PM)
-[2020.07.15-07.37.35:135][264]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.37.35:149][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014161s)
-[2020.07.15-07.37.35:150][264]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.37.35:150][264]LogPlayLevel: PIE: World Init took: (0.001360s)
-[2020.07.15-07.37.35:151][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.016032s)
-[2020.07.15-07.37.35:198][264]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.37.35:207][264]LogInit: FAudioDevice initialized.
-[2020.07.15-07.37.35:240][264]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.37.35:241][264]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.37.35
-[2020.07.15-07.37.35:241][264]LogWorld: Bringing up level for play took: 0.000982
-[2020.07.15-07.37.35:246][264]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.117
-[2020.07.15-07.37.58:409][905]BlueprintLog: New page: Compile MeleSelection_WB
-[2020.07.15-07.37.59:043][905]LogSavePackage: Save=136.78ms
-[2020.07.15-07.37.59:043][905]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/MeleSelection_WB2ECC486C4271950043AE5EB3747C69AD.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset'
-[2020.07.15-07.37.59:045][905]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset
-[2020.07.15-07.37.59:959][926]LogSavePackage: Save=159.55ms
-[2020.07.15-07.37.59:959][926]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/MeleSelection_WB4448CD54482B393109B45D95DC5B085C.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset'
-[2020.07.15-07.37.59:960][926]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset
-[2020.07.15-07.38.06:185][103]LogSavePackage: Save=230.57ms
-[2020.07.15-07.38.06:185][103]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/MeleSelection_WBD8277F9F45D3D6A172945A82146324F0.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset'
-[2020.07.15-07.38.06:186][103]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Mele/MeleSelection_WB.uasset
-[2020.07.15-07.38.26:669][682]BlueprintLog: New page: Compile GunSelection_WB
-[2020.07.15-07.38.27:258][682]LogSavePackage: Save=100.43ms
-[2020.07.15-07.38.27:258][682]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/GunSelection_WB73F8948E47A32C649F7673A44E9AE10B.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Gun/GunSelection_WB.uasset'
-[2020.07.15-07.38.27:291][682]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Gun/GunSelection_WB.uasset
-[2020.07.15-07.38.27:964][696]LogSavePackage: Save=151.77ms
-[2020.07.15-07.38.27:964][696]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/GunSelection_WB8C5AA23F4ADEEA234CD6358D2A3B3683.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Gun/GunSelection_WB.uasset'
-[2020.07.15-07.38.27:967][696]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/WeaponBlueprint/Gun/GunSelection_WB.uasset
-[2020.07.15-07.38.29:256][735]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.38.29:322][735]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.38.29:322][735]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:38:29 PM)
-[2020.07.15-07.38.29:323][735]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.38.29:336][735]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013595s)
-[2020.07.15-07.38.29:673][735]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.38.29:673][735]LogPlayLevel: PIE: World Init took: (0.001002s)
-[2020.07.15-07.38.29:673][735]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.350780s)
-[2020.07.15-07.38.29:705][735]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.38.29:712][735]LogInit: FAudioDevice initialized.
-[2020.07.15-07.38.29:749][735]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.38.29:750][735]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.38.29
-[2020.07.15-07.38.29:750][735]LogWorld: Bringing up level for play took: 0.000988
-[2020.07.15-07.38.29:755][735]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.627
-[2020.07.15-07.38.56:299][512]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2020.07.15-07.39.33:221][745]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.39.33:628][745]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.39.33:628][745]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:39:33 PM)
-[2020.07.15-07.39.33:629][745]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.39.33:642][745]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013585s)
-[2020.07.15-07.39.33:643][745]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.39.33:644][745]LogPlayLevel: PIE: World Init took: (0.001528s)
-[2020.07.15-07.39.33:644][745]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.015714s)
-[2020.07.15-07.39.33:690][745]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.39.33:698][745]LogInit: FAudioDevice initialized.
-[2020.07.15-07.39.33:733][745]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.39.33:734][745]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.39.33
-[2020.07.15-07.39.33:735][745]LogWorld: Bringing up level for play took: 0.001132
-[2020.07.15-07.39.33:740][745]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.611
-[2020.07.15-07.40.08:694][699]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.40.08:718][699]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.40.20:850][ 45]LogScriptCore: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_Get_AttackAnims_AttackAnims2' of length 6 in '/Game/Blueprints/PlayerBlueprint/Player_CharacterBP.Player_CharacterBP_C:ExecuteUbergraph_Player_CharacterBP'!
-[2020.07.15-07.40.37:072][516]LogScriptCore: Warning: Script Msg: Attempted to access index 7 from array 'CallFunc_Get_AttackAnims_AttackAnims2' of length 7 in '/Game/Blueprints/PlayerBlueprint/Player_CharacterBP.Player_CharacterBP_C:ExecuteUbergraph_Player_CharacterBP'!
-[2020.07.15-07.42.00:610][714]LogRenderer: Reallocating scene render targets to support 1336x732 Format 9 NumSamples 1 (Frame:59).
-[2020.07.15-07.42.00:783][715]LogRenderer: Reallocating scene render targets to support 1360x740 Format 9 NumSamples 1 (Frame:61).
-[2020.07.15-07.42.04:400][817]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.42.04:432][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.42.04:432][817]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:42:04 PM)
-[2020.07.15-07.42.04:433][817]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.42.04:446][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013646s)
-[2020.07.15-07.42.04:448][817]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.42.04:448][817]LogPlayLevel: PIE: World Init took: (0.001866s)
-[2020.07.15-07.42.04:449][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.015962s)
-[2020.07.15-07.42.04:492][817]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.42.04:499][817]LogInit: FAudioDevice initialized.
-[2020.07.15-07.42.04:535][817]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.42.04:537][817]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.42.04
-[2020.07.15-07.42.04:537][817]LogWorld: Bringing up level for play took: 0.001139
-[2020.07.15-07.42.04:542][817]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap -0.586
-[2020.07.15-07.42.13:825][ 67]Cmd: t.MaxFPS 30
-[2020.07.15-07.42.14:281][ 67]t.MaxFPS = "30"
-[2020.07.15-07.42.19:517][212]LogTemp: Repeating last play command: Selected Viewport
-[2020.07.15-07.42.19:550][212]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.07.15-07.42.19:550][212]PIE: New page: PIE session: NewMap (Jul 15, 2020, 7:42:19 PM)
-[2020.07.15-07.42.19:550][212]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
-[2020.07.15-07.42.19:565][212]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015390s)
-[2020.07.15-07.42.19:567][212]LogAIModule: Creating AISystem for world NewMap
-[2020.07.15-07.42.19:567][212]LogPlayLevel: PIE: World Init took: (0.001807s)
-[2020.07.15-07.42.19:568][212]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.017768s)
-[2020.07.15-07.42.19:609][212]LogInit: XAudio2 using 'Speakers (2- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2020.07.15-07.42.19:616][212]LogInit: FAudioDevice initialized.
-[2020.07.15-07.42.19:653][212]LogLoad: Game class is 'Gameplay_GM_C'
-[2020.07.15-07.42.19:655][212]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 30) at 2020.07.15-13.42.19
-[2020.07.15-07.42.19:655][212]LogWorld: Bringing up level for play took: 0.000937
-[2020.07.15-07.42.19:660][212]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 0.531
-[2020.07.15-07.42.45:269][769]LogScriptCore: Warning: Script Msg: Attempted to access index 12 from array 'CallFunc_Get_AttackAnims_AttackAnims2' of length 12 in '/Game/Blueprints/PlayerBlueprint/Player_CharacterBP.Player_CharacterBP_C:ExecuteUbergraph_Player_CharacterBP'!
-[2020.07.15-07.43.44:726][985]LogScriptCore: Warning: Script Msg: Attempted to access index 6 from array 'CallFunc_Get_AttackAnims_AttackAnims2' of length 6 in '/Game/Blueprints/PlayerBlueprint/Player_CharacterBP.Player_CharacterBP_C:ExecuteUbergraph_Player_CharacterBP'!
-[2020.07.15-07.44.07:309][450]LogScriptCore: Warning: Script Msg: Attempted to access index 7 from array 'CallFunc_Get_AttackAnims_AttackAnims2' of length 7 in '/Game/Blueprints/PlayerBlueprint/Player_CharacterBP.Player_CharacterBP_C:ExecuteUbergraph_Player_CharacterBP'!
-[2020.07.15-07.46.53:452][545]BlueprintLog: New page: Compile Player_CharacterBP
-[2020.07.15-07.46.56:034][545]LogSavePackage: Save=460.02ms
-[2020.07.15-07.46.56:034][545]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Player_CharacterBP142AB2604D9CA9FD81BF29BE68850681.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset'
-[2020.07.15-07.46.56:037][545]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset
-[2020.07.15-07.46.57:077][558]LogSavePackage: Save=554.64ms
-[2020.07.15-07.46.57:078][558]LogSavePackage: Moving '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Player_CharacterBPFF2284B04615832EC1817AAC271A80BE.tmp' to '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset'
-[2020.07.15-07.46.57:079][558]LogSavePackage: Display: Finished SavePackage ../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Blueprints/PlayerBlueprint/Player_CharacterBP.uasset
-[2020.07.15-07.47.02:044][671]Cmd: QUIT_EDITOR
-[2020.07.15-07.47.02:910][671]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2020.07.15-07.47.03:102][671]LogExit: Preparing to exit.
-[2020.07.15-07.47.04:283][671]LogDirectoryWatcher: A directory notification for 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/' was aborted.
-[2020.07.15-07.47.05:953][671]LogExit: Editor shut down
-[2020.07.15-07.47.06:008][671]LogExit: Transaction tracking system shut down
-[2020.07.15-07.47.07:140][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2020.07.15-07.47.07:140][671]LogDirectoryWatcher: A directory notification for '../../../../../GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/' was aborted.
-[2020.07.15-07.47.07:140][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2020.07.15-07.47.07:140][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2020.07.15-07.47.07:140][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2020.07.15-07.47.07:140][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2020.07.15-07.47.07:140][671]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2020.07.15-07.47.12:356][671]LogExit: Object subsystem successfully closed.
-[2020.07.15-07.47.14:523][671]LogD3D11RHI: Shutdown
-[2020.07.15-07.47.14:524][671]LogD3D11RHI: CleanupD3DDevice
-[2020.07.15-07.47.15:283][671]LogD3D11RHI: ~FD3D11DynamicRHI
-[2020.07.15-07.47.22:386][671]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (554)
-[2020.07.15-07.47.22:386][671]LogModuleManager: Shutting down and abandoning module StatsViewer (552)
-[2020.07.15-07.47.22:438][671]LogModuleManager: Shutting down and abandoning module SequencerWidgets (550)
-[2020.07.15-07.47.22:438][671]LogModuleManager: Shutting down and abandoning module BlueprintGraph (548)
-[2020.07.15-07.47.22:438][671]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (546)
-[2020.07.15-07.47.22:438][671]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2020.07.15-07.47.22:781][671]LogDirectoryWatcher: A directory notification for 'E:/GameDev/Unreal/Engine/UE_4.18/FeaturePacks/' was aborted.
-[2020.07.15-07.47.22:818][671]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2020.07.15-07.47.22:818][671]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2020.07.15-07.47.22:818][671]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2020.07.15-07.47.22:850][671]LogDirectoryWatcher: A directory notification for 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Collections/' was aborted.
-[2020.07.15-07.47.22:851][671]LogDirectoryWatcher: A directory notification for 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Developers/farha/Collections/' was aborted.
-[2020.07.15-07.47.22:851][671]LogDirectoryWatcher: A directory notification for 'E:/GameDev/Unreal/GITHUB/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Collections/' was aborted.
-[2020.07.15-07.47.22:851][671]LogModuleManager: Shutting down and abandoning module SceneOutliner (536)
-[2020.07.15-07.47.22:851][671]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2020.07.15-07.47.22:851][671]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2020.07.15-07.47.23:371][671]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2020.07.15-07.47.23:385][671]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2020.07.15-07.47.23:385][671]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2020.07.15-07.47.23:385][671]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2020.07.15-07.47.23:407][671]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2020.07.15-07.47.23:407][671]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2020.07.15-07.47.23:415][671]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2020.07.15-07.47.23:422][671]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2020.07.15-07.47.23:456][671]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2020.07.15-07.47.23:456][671]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2020.07.15-07.47.23:491][671]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2020.07.15-07.47.23:562][671]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2020.07.15-07.47.23:802][671]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2020.07.15-07.47.23:802][671]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2020.07.15-07.47.23:802][671]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2020.07.15-07.47.23:802][671]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2020.07.15-07.47.23:802][671]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2020.07.15-07.47.23:802][671]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2020.07.15-07.47.23:841][671]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2020.07.15-07.47.23:841][671]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2020.07.15-07.47.23:841][671]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2020.07.15-07.47.23:841][671]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2020.07.15-07.47.23:841][671]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2020.07.15-07.47.23:841][671]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2020.07.15-07.47.23:857][671]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2020.07.15-07.47.23:865][671]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2020.07.15-07.47.23:866][671]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2020.07.15-07.47.23:866][671]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2020.07.15-07.47.23:866][671]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2020.07.15-07.47.23:909][671]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2020.07.15-07.47.24:172][671]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2020.07.15-07.47.24:217][671]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2020.07.15-07.47.24:247][671]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2020.07.15-07.47.24:346][671]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2020.07.15-07.47.24:644][671]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2020.07.15-07.47.24:667][671]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2020.07.15-07.47.24:667][671]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2020.07.15-07.47.24:667][671]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2020.07.15-07.47.25:669][671]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2020.07.15-07.47.25:669][671]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2020.07.15-07.47.25:670][671]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2020.07.15-07.47.25:670][671]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2020.07.15-07.47.25:699][671]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2020.07.15-07.47.25:863][671]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2020.07.15-07.47.25:873][671]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2020.07.15-07.47.25:921][671]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2020.07.15-07.47.25:928][671]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2020.07.15-07.47.25:978][671]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2020.07.15-07.47.26:317][671]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2020.07.15-07.47.26:318][671]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2020.07.15-07.47.26:332][671]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2020.07.15-07.47.26:376][671]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2020.07.15-07.47.26:382][671]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2020.07.15-07.47.26:389][671]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2020.07.15-07.47.26:389][671]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2020.07.15-07.47.26:436][671]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2020.07.15-07.47.26:436][671]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2020.07.15-07.47.26:570][671]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2020.07.15-07.47.26:628][671]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2020.07.15-07.47.26:698][671]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2020.07.15-07.47.26:705][671]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2020.07.15-07.47.26:715][671]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2020.07.15-07.47.26:859][671]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2020.07.15-07.47.26:893][671]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2020.07.15-07.47.26:940][671]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2020.07.15-07.47.27:119][671]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2020.07.15-07.47.27:119][671]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2020.07.15-07.47.27:185][671]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2020.07.15-07.47.27:212][671]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2020.07.15-07.47.27:265][671]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2020.07.15-07.47.27:265][671]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2020.07.15-07.47.27:265][671]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2020.07.15-07.47.27:308][671]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2020.07.15-07.47.27:375][671]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2020.07.15-07.47.27:375][671]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2020.07.15-07.47.27:400][671]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2020.07.15-07.47.27:447][671]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2020.07.15-07.47.27:448][671]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2020.07.15-07.47.27:462][671]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2020.07.15-07.47.27:627][671]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2020.07.15-07.47.27:719][671]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2020.07.15-07.47.27:748][671]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2020.07.15-07.47.27:763][671]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2020.07.15-07.47.27:843][671]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2020.07.15-07.47.27:864][671]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2020.07.15-07.47.27:864][671]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2020.07.15-07.47.27:864][671]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2020.07.15-07.47.27:864][671]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2020.07.15-07.47.27:864][671]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2020.07.15-07.47.27:864][671]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2020.07.15-07.47.27:864][671]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2020.07.15-07.47.27:865][671]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2020.07.15-07.47.27:865][671]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2020.07.15-07.47.27:865][671]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2020.07.15-07.47.27:865][671]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2020.07.15-07.47.27:953][671]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2020.07.15-07.47.27:953][671]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2020.07.15-07.47.27:953][671]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2020.07.15-07.47.27:953][671]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2020.07.15-07.47.27:965][671]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2020.07.15-07.47.27:965][671]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2020.07.15-07.47.27:965][671]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2020.07.15-07.47.27:965][671]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2020.07.15-07.47.27:965][671]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2020.07.15-07.47.28:036][671]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2020.07.15-07.47.28:085][671]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2020.07.15-07.47.28:152][671]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2020.07.15-07.47.28:152][671]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2020.07.15-07.47.28:152][671]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2020.07.15-07.47.28:171][671]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2020.07.15-07.47.28:252][671]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2020.07.15-07.47.28:304][671]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2020.07.15-07.47.28:333][671]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2020.07.15-07.47.28:333][671]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2020.07.15-07.47.28:333][671]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2020.07.15-07.47.28:333][671]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2020.07.15-07.47.28:399][671]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2020.07.15-07.47.28:400][671]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2020.07.15-07.47.28:608][671]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2020.07.15-07.47.28:634][671]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2020.07.15-07.47.28:634][671]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2020.07.15-07.47.28:766][671]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2020.07.15-07.47.28:767][671]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2020.07.15-07.47.28:821][671]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2020.07.15-07.47.28:821][671]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2020.07.15-07.47.28:821][671]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2020.07.15-07.47.28:821][671]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2020.07.15-07.47.28:821][671]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2020.07.15-07.47.28:821][671]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2020.07.15-07.47.28:922][671]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2020.07.15-07.47.29:022][671]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2020.07.15-07.47.29:123][671]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2020.07.15-07.47.29:131][671]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2020.07.15-07.47.29:131][671]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2020.07.15-07.47.29:140][671]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2020.07.15-07.47.29:140][671]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2020.07.15-07.47.29:142][671]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2020.07.15-07.47.29:142][671]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2020.07.15-07.47.29:142][671]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2020.07.15-07.47.29:190][671]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2020.07.15-07.47.29:262][671]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2020.07.15-07.47.29:262][671]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2020.07.15-07.47.29:262][671]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2020.07.15-07.47.29:262][671]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2020.07.15-07.47.29:366][671]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2020.07.15-07.47.29:366][671]LogModuleManager: Shutting down and abandoning module Media (221)
-[2020.07.15-07.47.29:372][671]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2020.07.15-07.47.29:372][671]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2020.07.15-07.47.29:372][671]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2020.07.15-07.47.29:433][671]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2020.07.15-07.47.29:468][671]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2020.07.15-07.47.29:468][671]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2020.07.15-07.47.29:495][671]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2020.07.15-07.47.29:495][671]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2020.07.15-07.47.29:527][671]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2020.07.15-07.47.29:603][671]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2020.07.15-07.47.29:620][671]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2020.07.15-07.47.29:620][671]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2020.07.15-07.47.29:620][671]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2020.07.15-07.47.29:642][671]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2020.07.15-07.47.29:856][671]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2020.07.15-07.47.29:856][671]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2020.07.15-07.47.30:077][671]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2020.07.15-07.47.30:077][671]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2020.07.15-07.47.30:099][671]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2020.07.15-07.47.30:099][671]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2020.07.15-07.47.30:099][671]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2020.07.15-07.47.30:099][671]LogModuleManager: Shutting down and abandoning module Core (172)
-[2020.07.15-07.47.30:099][671]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2020.07.15-07.47.30:100][671]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2020.07.15-07.47.30:148][671]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2020.07.15-07.47.30:148][671]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2020.07.15-07.47.30:206][671]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2020.07.15-07.47.30:239][671]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2020.07.15-07.47.30:239][671]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2020.07.15-07.47.30:271][671]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2020.07.15-07.47.30:276][671]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2020.07.15-07.47.30:289][671]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2020.07.15-07.47.30:336][671]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2020.07.15-07.47.30:376][671]LogDerivedDataCache: Shutdown
-[2020.07.15-07.47.30:376][671]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2020.07.15-07.47.30:399][671]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2020.07.15-07.47.30:409][671]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2020.07.15-07.47.30:431][671]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2020.07.15-07.47.30:444][671]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2020.07.15-07.47.30:475][671]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2020.07.15-07.47.30:488][671]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2020.07.15-07.47.30:488][671]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2020.07.15-07.47.30:488][671]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2020.07.15-07.47.30:488][671]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2020.07.15-07.47.30:624][671]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2020.07.15-07.47.30:625][671]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2020.07.15-07.47.30:662][671]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2020.07.15-07.47.30:669][671]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2020.07.15-07.47.30:679][671]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2020.07.15-07.47.30:680][671]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2020.07.15-07.47.30:705][671]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2020.07.15-07.47.30:737][671]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2020.07.15-07.47.30:745][671]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2020.07.15-07.47.30:745][671]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2020.07.15-07.47.30:745][671]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2020.07.15-07.47.30:745][671]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2020.07.15-07.47.30:745][671]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2020.07.15-07.47.30:745][671]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2020.07.15-07.47.30:776][671]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2020.07.15-07.47.30:776][671]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2020.07.15-07.47.30:776][671]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2020.07.15-07.47.30:776][671]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2020.07.15-07.47.30:776][671]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2020.07.15-07.47.30:935][671]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2020.07.15-07.47.31:054][671]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2020.07.15-07.47.31:054][671]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2020.07.15-07.47.31:062][671]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B730B2BB0-4855-8BAE-9BE5-90A60EECA1D6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=dab985eb449ee4f1b342389e404cab9f%7C845779d9bd904572b61cf91381b7a44e%7C4e718ad1-99cd-4dc7-9063-d4e2b6f3fd7d&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2020.07.15-07.47.31:128][671]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2020.07.15-07.47.31:313][671]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2020.07.15-07.47.31:339][671]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2020.07.15-07.47.31:465][671]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2020.07.15-07.47.31:540][671]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2020.07.15-07.47.31:722][671]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2020.07.15-07.47.31:722][671]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2020.07.15-07.47.31:729][671]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2020.07.15-07.47.31:819][671]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2020.07.15-07.47.31:836][671]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2020.07.15-07.47.31:836][671]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2020.07.15-07.47.31:836][671]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2020.07.15-07.47.31:836][671]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2020.07.15-07.47.31:850][671]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2020.07.15-07.47.31:850][671]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2020.07.15-07.47.31:863][671]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2020.07.15-07.47.31:863][671]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2020.07.15-07.47.31:870][671]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2020.07.15-07.47.31:870][671]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2020.07.15-07.47.32:022][671]LogExit: Exiting.
-[2020.07.15-07.47.32:149][671]Log file closed, 07/15/20 13:47:32
+[2020.07.16-13.41.39:759][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.16-13.41.39:759][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.07.16-13.41.39:924][  0]LogInit: Computer: DESKTOP-IALHAP5
+[2020.07.16-13.41.39:924][  0]LogInit: User: kidvi
+[2020.07.16-13.41.39:924][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.07.16-13.41.39:924][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.07.16-13.41.39:925][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.07.16-13.41.39:925][  0]LogMemory: Platform Memory Stats for Windows
+[2020.07.16-13.41.39:925][  0]LogMemory: Process Physical Memory: 272.57 MB used, 272.57 MB peak
+[2020.07.16-13.41.39:925][  0]LogMemory: Process Virtual Memory: 269.63 MB used, 269.64 MB peak
+[2020.07.16-13.41.39:925][  0]LogMemory: Physical Memory: 3561.42 MB used,  12773.84 MB free, 16335.26 MB total
+[2020.07.16-13.41.39:925][  0]LogMemory: Virtual Memory: 4748.14 MB used,  12773.84 MB free, 134217728.00 MB total
+[2020.07.16-13.41.40:827][  0]LogInit: Using OS detected language (en-US).
+[2020.07.16-13.41.40:827][  0]LogInit: Using OS detected locale (en-US).
+[2020.07.16-13.41.41:077][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.07.16-13.41.41:900][  0]LogInit: Setting process to per monitor DPI aware
+[2020.07.16-13.41.45:199][  0]LogD3D11RHI: D3D11 adapters:
+[2020.07.16-13.41.45:233][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) RX 560 Series' (Feature Level 11_0)
+[2020.07.16-13.41.45:234][  0]LogD3D11RHI:       4075/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2020.07.16-13.41.45:236][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.07.16-13.41.45:236][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.07.16-13.41.45:236][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.07.16-13.41.45:243][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.07.16-13.41.45:243][  0]LogD3D11RHI:     GPU DeviceId: 0x67ef (for the marketing name, search the web for "GPU Device Id")
+[2020.07.16-13.41.45:243][  0]LogWindows: EnumDisplayDevices:
+[2020.07.16-13.41.45:244][  0]LogWindows:    0. 'AMD Radeon(TM) RX 560 Series' (P:1 D:1)
+[2020.07.16-13.41.45:244][  0]LogWindows:    1. 'AMD Radeon(TM) RX 560 Series' (P:0 D:0)
+[2020.07.16-13.41.45:244][  0]LogWindows:    2. 'AMD Radeon(TM) RX 560 Series' (P:0 D:0)
+[2020.07.16-13.41.45:244][  0]LogWindows:    3. 'AMD Radeon(TM) RX 560 Series' (P:0 D:0)
+[2020.07.16-13.41.45:245][  0]LogWindows:    4. 'AMD Radeon(TM) RX 560 Series' (P:0 D:0)
+[2020.07.16-13.41.45:245][  0]LogWindows:    5. 'AMD Radeon(TM) RX 560 Series' (P:0 D:0)
+[2020.07.16-13.41.45:245][  0]LogWindows:    6. 'AMD Radeon(TM) RX 560 Series' (P:0 D:0)
+[2020.07.16-13.41.45:245][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.07.16-13.41.45:245][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) RX 560 Series
+[2020.07.16-13.41.45:245][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.07.16-13.41.45:245][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.07.16-13.41.45:245][  0]LogRHI: Texture pool is 2853 MB (70% of 4075 MB)
+[2020.07.16-13.41.45:294][  0]LogD3D11RHI: Async texture creation enabled
+[2020.07.16-13.41.45:684][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
+[2020.07.16-13.41.45:755][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Intermediate/Shaders/WorkingDirectory/12248/).
+[2020.07.16-13.41.45:756][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/kidvi/AppData/Local/Temp/UnrealShaderWorkingDir/A864A8234DD0449036068BA0EDEDFE85/'.
+[2020.07.16-13.41.45:759][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.07.16-13.41.48:709][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2020.07.16-13.41.48:761][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2020.07.16-13.41.48:814][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2020.07.16-13.41.48:866][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2020.07.16-13.41.48:959][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2020.07.16-13.41.49:013][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2020.07.16-13.41.49:066][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.07.16-13.41.49:120][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2020.07.16-13.41.49:165][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2020.07.16-13.41.49:217][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2020.07.16-13.41.49:271][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2020.07.16-13.41.49:322][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2020.07.16-13.41.49:374][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2020.07.16-13.41.49:428][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2020.07.16-13.41.49:531][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2020.07.16-13.41.49:531][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.07.16-13.41.49:586][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2020.07.16-13.41.49:625][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2020.07.16-13.41.49:799][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2020.07.16-13.41.49:829][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2020.07.16-13.41.49:881][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2020.07.16-13.41.49:933][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.07.16-13.41.49:984][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2020.07.16-13.41.50:053][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2020.07.16-13.41.50:053][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.07.16-13.41.51:592][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.07.16-13.41.51:933][  0]LogDerivedDataCache: Loaded boot cache 0.34s 78MB C:/Users/kidvi/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.07.16-13.41.51:934][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/kidvi/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2020.07.16-13.41.51:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.07.16-13.41.51:934][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.07.16-13.41.51:934][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.07.16-13.41.51:934][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.07.16-13.41.52:004][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.07.16-13.41.52:017][  0]LogDerivedDataCache: Using Local data cache path C:/Users/kidvi/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.07.16-13.41.52:111][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.07.16-13.41.52:187][  0]LogSlate: Using Freetype 2.6.0
+[2020.07.16-13.41.52:265][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.16-13.41.52:278][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.07.16-13.41.58:373][  0]LogInit: Selected Device Profile: [Windows]
+[2020.07.16-13.42.00:334][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.07.16-13.42.00:377][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.07.16-13.42.00:377][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.07.16-13.42.00:377][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2020.07.16-13.42.00:377][  0]LogMeshReduction: No automatic mesh merging module available
+[2020.07.16-13.42.00:377][  0]LogMeshMerging: No automatic mesh merging module available
+[2020.07.16-13.42.00:848][  0]LogNetVersion: UE4_Loco_Multiplayer , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1342504481)
+[2020.07.16-13.42.02:942][  0]LogAssetRegistry: FAssetRegistry took 0.0682 seconds to start up
+[2020.07.16-13.42.21:054][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.743643 seconds
+[2020.07.16-13.42.21:134][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2020.07.16-13.42.21:134][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2020.07.16-13.42.21:134][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.07.16-13.42.21:214][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.07.16-13.43.08:003][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.07.16-13.43.08:078][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.07.16-13.43.09:618][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.07.16-13.43.10:371][  0]SourceControl: Source control is disabled
+[2020.07.16-13.43.10:388][  0]SourceControl: Source control is disabled
+[2020.07.16-13.43.10:522][  0]SourceControl: Source control is disabled
+[2020.07.16-13.43.10:627][  0]SourceControl: Source control is disabled
+[2020.07.16-13.43.12:458][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.07.16-13.43.12:813][  0]LogOcInput: OculusInput pre-init called
+[2020.07.16-13.43.13:687][  0]LogEngine: Initializing Engine...
+[2020.07.16-13.43.13:746][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.07.16-13.43.14:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.07.16-13.43.14:072][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.07.16-13.43.14:454][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.07.16-13.43.14:685][  0]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.07.16-13.43.14:703][  0]LogInit: FAudioDevice initialized.
+[2020.07.16-13.43.14:798][  0]LogDerivedDataCache: Saved boot cache 0.09s 78MB C:/Users/kidvi/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2020.07.16-13.43.14:804][  0]LogInit: Texture streaming: Enabled
+[2020.07.16-13.43.15:029][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.07.16-13.43.15:669][  0]LogInit: Transaction tracking system initialized
+[2020.07.16-13.43.18:494][  0]BlueprintLog: New page: Editor Load
+[2020.07.16-13.43.23:804][  0]LocalizationService: Localization service is disabled
+[2020.07.16-13.43.25:951][  0]LogConsoleResponse: Display: 
+[2020.07.16-13.43.29:163][  0]LogFileCache: Scanning file cache for directory 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/' took 0.02s
+[2020.07.16-13.43.29:163][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.07.16-13.43.29:163][  0]LogCook: Display: Mobile HDR setting 1
+[2020.07.16-13.43.29:203][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2020.07.16-13.43.34:027][  0]SourceControl: Source control is disabled
+[2020.07.16-13.43.34:148][  0]Cmd: MAP LOAD FILE="H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.16-13.43.34:148][  0]LogEditorServer: Warning: Can't find file 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2020.07.16-13.43.34:157][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.16-13.43.34:219][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.678ms to complete.
+[2020.07.16-13.43.34:219][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.118
+[2020.07.16-13.43.35:996][  0]LogCollectionManager: Loaded 0 collections in 0.001461 seconds
+[2020.07.16-13.43.36:239][  0]LogFileCache: Scanning file cache for directory 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Collections/' took 0.01s
+[2020.07.16-13.43.36:239][  0]LogFileCache: Scanning file cache for directory 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Developers/kidvi/Collections/' took 0.01s
+[2020.07.16-13.43.36:239][  0]LogFileCache: Scanning file cache for directory 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Collections/' took 0.01s
+[2020.07.16-13.43.36:239][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2020.07.16-13.43.36:260][  0]LogContentBrowser: Native class hierarchy populated in 0.0192 seconds. Added 2363 classes and 519 folders.
+[2020.07.16-13.43.36:435][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.16-13.43.37:720][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.07.16-13.43.37:875][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.07.16-13.43.39:405][  0]LogSlate: Took 0.022760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.16-13.43.39:462][  0]LogSlate: Took 0.019787 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.07.16-13.43.39:507][  0]LogSlate: Took 0.020640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.07.16-13.43.39:884][  0]LogRenderer: Reallocating scene render targets to support 1528x660 Format 9 NumSamples 1 (Frame:1).
+[2020.07.16-13.43.40:701][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.07.16-13.43.40:701][  0]LogLoad: (Engine Initialization) Total time: 147.47 seconds
+[2020.07.16-13.43.40:701][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.07.16-13.43.40:701][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.07.16-13.43.40:819][  0]LogContentStreaming: Texture pool size now 800 MB
+[2020.07.16-13.43.41:126][  3]LogAssetRegistry: Asset discovery search completed in 98.2069 seconds
+[2020.07.16-13.43.41:151][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.07.16-13.43.41:151][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000101 seconds (updated 0 objects)
+[2020.07.16-13.45.48:970][604]SourceControl: On branch master
+[2020.07.16-13.45.48:970][604]SourceControl: Your branch is up to date with 'origin/master'.
+[2020.07.16-13.45.48:970][604]SourceControl: Changes not staged for commit:
+[2020.07.16-13.45.48:970][604]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2020.07.16-13.45.48:970][604]SourceControl:   (use "git restore <file>..." to discard changes in working directory)
+[2020.07.16-13.45.48:970][604]SourceControl: 	modified:   UE4_Loco_Multiplayer/Intermediate/CachedAssetRegistry.bin
+[2020.07.16-13.45.48:970][604]SourceControl: 	modified:   UE4_Loco_Multiplayer/Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2020.07.16-13.45.48:970][604]SourceControl: 	modified:   UE4_Loco_Multiplayer/Saved/Config/Windows/Editor.ini
+[2020.07.16-13.45.48:970][604]SourceControl: 	modified:   UE4_Loco_Multiplayer/Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2020.07.16-13.45.48:970][604]SourceControl: 	modified:   UE4_Loco_Multiplayer/Saved/Config/Windows/Engine.ini
+[2020.07.16-13.45.48:970][604]SourceControl: 	deleted:    UE4_Loco_Multiplayer/Saved/Logs/UE4_Loco_Multiplayer-backup-2020.07.15-10.15.50.log
+[2020.07.16-13.45.48:970][604]SourceControl: 	modified:   UE4_Loco_Multiplayer/Saved/Logs/UE4_Loco_Multiplayer.log
+[2020.07.16-13.45.48:970][604]SourceControl: Untracked files:
+[2020.07.16-13.45.48:970][604]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2020.07.16-13.45.48:970][604]SourceControl: 	UE4_Loco_Multiplayer/Saved/Config/CrashReportClient/UE4CC-Windows-FD76D8E641D2DAACC36E81A6A4DB6694/
+[2020.07.16-13.45.48:970][604]SourceControl: 	UE4_Loco_Multiplayer/Saved/Logs/UE4_Loco_Multiplayer-backup-2020.07.16-09.41.33.log
+[2020.07.16-13.45.48:970][604]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2020.07.16-13.46.22:745][ 83]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.16-13.46.25:416][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.16-13.46.26:304][ 83]PIE: New page: PIE session: Untitled_0 (Jul 16, 2020, 5:46:26 AM)
+[2020.07.16-13.46.26:632][ 83]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_0
+[2020.07.16-13.46.27:156][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.523380s)
+[2020.07.16-13.46.27:224][ 83]LogAIModule: Creating AISystem for world Untitled
+[2020.07.16-13.46.27:686][ 83]LogPlayLevel: PIE: World Init took: (0.462852s)
+[2020.07.16-13.46.28:239][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_0.Untitled to /Temp/UEDPIE_0_Untitled_0.Untitled (1.606136s)
+[2020.07.16-13.46.33:477][ 83]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.07.16-13.46.33:485][ 83]LogInit: FAudioDevice initialized.
+[2020.07.16-13.46.34:406][ 83]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2020.07.16-13.46.34:406][ 83]LogLinker: Warning: Can't find file '/Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode'
+[2020.07.16-13.46.34:488][ 83]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/ThirdPersonBP/Blueprints/ThirdPersonGameMode.ThirdPersonGameMode_C'
+[2020.07.16-13.46.34:488][ 83]LogLoad: Game class is 'GameModeBase'
+[2020.07.16-13.46.38:766][ 83]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_0.Untitled up for play (max tick rate 0) at 2020.07.16-09.46.38
+[2020.07.16-13.46.39:402][ 83]LogWorld: Bringing up level for play took: 1.197701
+[2020.07.16-13.46.49:200][ 83]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0085 seconds. Added 11 classes and 0 folders.
+[2020.07.16-13.46.54:633][ 83]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_0 30.531
+[2020.07.16-13.47.36:578][203]LogSlate: Took 0.059988 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.07.16-13.47.39:012][203]LogSlate: Took 0.543154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.07.16-13.48.39:898][203]LogTexture: Display: Building textures: T_FL_Detail_01 (BGRA8, 1024X1024)
+[2020.07.16-13.48.39:898][203]LogTexture: Display: Building textures: T_Sparks_02 (AutoDXT, 128X512)
+[2020.07.16-13.48.39:898][203]LogTexture: Display: Building textures: T_AssaultRifle_MuzzleFlashes_01 (AutoDXT, 512X512)
+[2020.07.16-13.48.39:898][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.39:898][203]LogTexture: Display: Building textures: T_Spherical_NormalMap_01 (BC5, 1024X1024)
+[2020.07.16-13.48.39:898][203]LogTexture: Display: Building textures: T_Pistol_Smoke_2x2_A (AutoDXT, 1024X1024)
+[2020.07.16-13.48.42:183][203]LogTexture: Display: Building textures: T_Smoke_8x8_B_01 (AutoDXT, 4096X4096)
+[2020.07.16-13.48.42:183][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/ThirdPerson/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun
+[2020.07.16-13.48.43:306][203]LogTexture: Display: Building textures: Assault_Rifle_A_Norm (BC5, 2048X2048)
+[2020.07.16-13.48.43:307][203]LogAnimationCompression: Recompressing (AnimSequence /Game/ThirdPerson/Mannequin/Animations/ThirdPersonRun.ThirdPersonRun) using current/default (AnimCompress_RemoveLinearKeys_6) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.43:473][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle
+[2020.07.16-13.48.43:473][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Jog_Fwd_Rifle.Jog_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_83) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.43:488][203]LogStaticMesh: Building static mesh St_Tracer_A...
+[2020.07.16-13.48.45:529][203]LogTexture: Display: Building textures: Assault_Rifle_A_masks (AutoDXT, 2048X2048)
+[2020.07.16-13.48.45:530][203]LogStaticMesh: Built static mesh [2.04s] /Game/GameContent/MilitaryWeapSilver/FX/Meshes/St_Tracer_A.St_Tracer_A
+[2020.07.16-13.48.46:344][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire_ST02...
+[2020.07.16-13.48.48:036][203]LogTexture: Display: Building textures: Assault_Rifle_A_Diff (AutoDXT, 2048X2048)
+[2020.07.16-13.48.48:038][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire_ST01...
+[2020.07.16-13.48.48:091][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire04...
+[2020.07.16-13.48.48:155][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire03...
+[2020.07.16-13.48.48:184][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire02...
+[2020.07.16-13.48.48:216][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire01...
+[2020.07.16-13.48.48:246][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire_ST03...
+[2020.07.16-13.48.48:284][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire_ST02...
+[2020.07.16-13.48.48:308][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire_ST01...
+[2020.07.16-13.48.48:334][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire06...
+[2020.07.16-13.48.48:351][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire05...
+[2020.07.16-13.48.48:362][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire04...
+[2020.07.16-13.48.48:380][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire03...
+[2020.07.16-13.48.48:393][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire02...
+[2020.07.16-13.48.48:406][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire01...
+[2020.07.16-13.48.48:424][203]LogStaticMesh: Building static mesh St_Sphere_01...
+[2020.07.16-13.48.48:450][203]LogStaticMesh: Built static mesh [0.03s] /Game/GameContent/MilitaryWeapSilver/FX/Meshes/St_Sphere_01.St_Sphere_01
+[2020.07.16-13.48.50:067][203]LogTexture: Display: Building textures: T_RockSmall_01 (AutoDXT, 128X128)
+[2020.07.16-13.48.50:067][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.50:067][203]LogTexture: Display: Building textures: T_SmokeRibbon_01 (AutoDXT, 128X64)
+[2020.07.16-13.48.50:072][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.50:073][203]LogMaterial: Missing cached shader map for material M_Pistol_Smoke_2x2_A, compiling. 
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: T_Pistol_Streaks_01 (AutoDXT, 32X128)
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: T_Pistol_MuzzleFlashes_4x1_B (AutoDXT, 1024X512)
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: Grenade_Launcher_A_Norm (BC5, 2048X2048)
+[2020.07.16-13.48.53:924][203]LogTexture: Display: Building textures: Grenade_Launcher_A_Masks (AutoDXT, 2048X2048)
+[2020.07.16-13.48.53:929][203]LogMaterial: Missing cached shader map for material M_GlowSphere_01, compiling. 
+[2020.07.16-13.48.54:204][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack07.Axe_Attack07
+[2020.07.16-13.48.54:204][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack07.Axe_Attack07) using current/default (AnimCompress_BitwiseCompressOnly_163) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.55:095][203]LogTexture: Display: Building textures: Grenade_Launcher_A_Diff (AutoDXT, 2048X2048)
+[2020.07.16-13.48.55:097][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack06.Axe_Attack06
+[2020.07.16-13.48.55:097][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack06.Axe_Attack06) using current/default (AnimCompress_BitwiseCompressOnly_161) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.55:099][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack05.Axe_Attack05
+[2020.07.16-13.48.55:100][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack05.Axe_Attack05) using current/default (AnimCompress_BitwiseCompressOnly_159) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.55:104][203]LogMaterial: Missing cached shader map for material M_Trail, compiling. 
+[2020.07.16-13.48.55:725][203]LogMaterial: Missing cached shader map for material M_Tracer_A, compiling. 
+[2020.07.16-13.48.55:897][203]LogMaterial: Missing cached shader map for material M_SmokeRibbon_01, compiling. 
+[2020.07.16-13.48.56:897][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire_ST06...
+[2020.07.16-13.48.56:925][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire_ST05...
+[2020.07.16-13.48.56:945][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RifleA_Fire_ST04...
+[2020.07.16-13.48.56:987][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/19_Frank_Punch_Right_Straight.19_Frank_Punch_Right_Straight
+[2020.07.16-13.48.56:988][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/19_Frank_Punch_Right_Straight.19_Frank_Punch_Right_Straight) using current/default (AnimCompress_BitwiseCompressOnly_101) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.56:998][203]LogMaterial: Missing cached shader map for material M_AnimTrail, compiling. 
+[2020.07.16-13.48.57:047][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/32_Frank_Kick_Double_RoundHouse.32_Frank_Kick_Double_RoundHouse
+[2020.07.16-13.48.57:047][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/32_Frank_Kick_Double_RoundHouse.32_Frank_Kick_Double_RoundHouse) using current/default (AnimCompress_BitwiseCompressOnly_135) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:048][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/31_Frank_Kick_Front_Right_Hammer.31_Frank_Kick_Front_Right_Hammer
+[2020.07.16-13.48.57:049][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/31_Frank_Kick_Front_Right_Hammer.31_Frank_Kick_Front_Right_Hammer) using current/default (AnimCompress_BitwiseCompressOnly_137) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:051][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/30_Frank_Kick_Right_Side.30_Frank_Kick_Right_Side
+[2020.07.16-13.48.57:051][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/30_Frank_Kick_Right_Side.30_Frank_Kick_Right_Side) using current/default (AnimCompress_BitwiseCompressOnly_115) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:053][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/29_Frank_Kick_Right_Spin_Heel.29_Frank_Kick_Right_Spin_Heel
+[2020.07.16-13.48.57:053][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/29_Frank_Kick_Right_Spin_Heel.29_Frank_Kick_Right_Spin_Heel) using current/default (AnimCompress_BitwiseCompressOnly_113) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:056][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/28_Frank_Kick_Right_Low.28_Frank_Kick_Right_Low
+[2020.07.16-13.48.57:056][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/28_Frank_Kick_Right_Low.28_Frank_Kick_Right_Low) using current/default (AnimCompress_BitwiseCompressOnly_111) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:058][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/27_Frank_Kick_Left_tap.27_Frank_Kick_Left_tap
+[2020.07.16-13.48.57:059][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/27_Frank_Kick_Left_tap.27_Frank_Kick_Left_tap) using current/default (AnimCompress_BitwiseCompressOnly_109) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:061][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/22_Frank_Punch_PowerSmash.22_Frank_Punch_PowerSmash
+[2020.07.16-13.48.57:061][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/22_Frank_Punch_PowerSmash.22_Frank_Punch_PowerSmash) using current/default (AnimCompress_BitwiseCompressOnly_107) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:063][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/21_Frank_Punch_Right_UpperCut.21_Frank_Punch_Right_UpperCut
+[2020.07.16-13.48.57:063][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/21_Frank_Punch_Right_UpperCut.21_Frank_Punch_Right_UpperCut) using current/default (AnimCompress_BitwiseCompressOnly_105) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:066][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/20_Frank_Punch_Left_UpperCut.20_Frank_Punch_Left_UpperCut
+[2020.07.16-13.48.57:066][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/20_Frank_Punch_Left_UpperCut.20_Frank_Punch_Left_UpperCut) using current/default (AnimCompress_BitwiseCompressOnly_103) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:175][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/18_Frank_Punch_Left_Jab.18_Frank_Punch_Left_Jab
+[2020.07.16-13.48.57:175][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/Frank_Fighting_Set2/Animations/18_Frank_Punch_Left_Jab.18_Frank_Punch_Left_Jab) using current/default (AnimCompress_BitwiseCompressOnly_99) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:177][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Equip_Rifle_Standing.Equip_Rifle_Standing
+[2020.07.16-13.48.57:178][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Equip_Rifle_Standing.Equip_Rifle_Standing) using current/default (AnimCompress_BitwiseCompressOnly_97) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:182][203]LogMaterial: Missing cached shader map for material M_Pistol_Streaks_01, compiling. 
+[2020.07.16-13.48.57:210][203]LogTexture: Display: Building textures: T_Ember_01 (AutoDXT, 256X256)
+[2020.07.16-13.48.57:239][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle
+[2020.07.16-13.48.57:240][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Sprint_Fwd_Rifle.Sprint_Fwd_Rifle) using current/default (AnimCompress_BitwiseCompressOnly_85) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:242][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WL.Rifle_Aim_WL
+[2020.07.16-13.48.57:244][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WL.Rifle_Aim_WL) using current/default (AnimCompress_BitwiseCompressOnly_67) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:246][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WR.Rifle_Aim_WR
+[2020.07.16-13.48.57:246][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WR.Rifle_Aim_WR) using current/default (AnimCompress_BitwiseCompressOnly_65) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.57:248][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WFR.Rifle_Aim_WFR
+[2020.07.16-13.48.57:248][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WFR.Rifle_Aim_WFR) using current/default (AnimCompress_BitwiseCompressOnly_69) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.48.59:487][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.48.59:487][203]LogTexture: Display: Building textures: T_Explosion_Macro_01 (AutoDXT, 512X512)
+[2020.07.16-13.49.00:841][203]LogTexture: Display: Building textures: T_Explosion_8x8_Temperature_01 (AutoDXT, 4096X4096)
+[2020.07.16-13.49.02:606][203]LogMaterial: Missing cached shader map for material M_Smoke_8x8_B_01, compiling. 
+[2020.07.16-13.49.02:693][203]LogMaterial: Missing cached shader map for material M_AssaultRifle_MuzzleFlash_4x1, compiling. 
+[2020.07.16-13.49.02:879][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W
+[2020.07.16-13.49.02:879][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_Rifle_W.Fire_Rifle_W) using current/default (AnimCompress_RemoveLinearKeys_1) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.03:492][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WBL.Rifle_Aim_WBL
+[2020.07.16-13.49.03:492][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WBL.Rifle_Aim_WBL) using current/default (AnimCompress_BitwiseCompressOnly_77) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.03:494][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WB.Rifle_Aim_WB
+[2020.07.16-13.49.03:494][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WB.Rifle_Aim_WB) using current/default (AnimCompress_BitwiseCompressOnly_79) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.03:496][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights
+[2020.07.16-13.49.03:496][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Idle_Rifle_Ironsights.Idle_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_173) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.03:499][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip
+[2020.07.16-13.49.03:499][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Idle_Rifle_Hip.Idle_Rifle_Hip) using current/default (AnimCompress_BitwiseCompressOnly_81) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.03:758][203]LogTexture: Display: Building textures: T_Explosion_8x8_Erode_01 (AutoDXT, 2048X2048)
+[2020.07.16-13.49.03:762][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Idle_Pistol.Idle_Pistol
+[2020.07.16-13.49.03:762][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Idle_Pistol.Idle_Pistol) using current/default (AnimCompress_BitwiseCompressOnly_172) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.04:355][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Walk.Walk
+[2020.07.16-13.49.04:355][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Walk.Walk) using current/default (AnimCompress_BitwiseCompressOnly_91) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.04:357][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Jog_Forward.Jog_Forward
+[2020.07.16-13.49.04:357][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Jog_Forward.Jog_Forward) using current/default (AnimCompress_BitwiseCompressOnly_89) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.04:369][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Breathing_Idle.Breathing_Idle
+[2020.07.16-13.49.04:369][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Breathing_Idle.Breathing_Idle) using current/default (AnimCompress_BitwiseCompressOnly_87) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.04:378][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Idle_Aim.Rifle_Idle_Aim
+[2020.07.16-13.49.04:378][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Idle_Aim.Rifle_Idle_Aim) using current/default (AnimCompress_BitwiseCompressOnly_63) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.06:241][203]LogMaterial: Missing cached shader map for material Light, compiling. 
+[2020.07.16-13.49.06:247][203]LogStaticMesh: Building static mesh Sword...
+[2020.07.16-13.49.06:850][203]LogTexture: Display: Building textures: T_Explosion_8x8_Density_01 (AutoDXT, 4096X4096)
+[2020.07.16-13.49.06:850][203]LogStaticMesh: Built static mesh [0.60s] /Game/GameContent/PrototypeMeleWeapons/Sword.Sword
+[2020.07.16-13.49.07:909][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack06.SwordAttack06
+[2020.07.16-13.49.07:909][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack06.SwordAttack06) using current/default (AnimCompress_BitwiseCompressOnly_133) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.07:912][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack05.SwordAttack05
+[2020.07.16-13.49.07:912][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack05.SwordAttack05) using current/default (AnimCompress_BitwiseCompressOnly_131) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.07:914][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack04.SwordAttack04
+[2020.07.16-13.49.07:915][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack04.SwordAttack04) using current/default (AnimCompress_BitwiseCompressOnly_129) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.07:917][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack03.SwordAttack03
+[2020.07.16-13.49.07:917][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack03.SwordAttack03) using current/default (AnimCompress_BitwiseCompressOnly_127) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.07:919][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack02.SwordAttack02
+[2020.07.16-13.49.07:919][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack02.SwordAttack02) using current/default (AnimCompress_BitwiseCompressOnly_125) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.07:921][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack01.SwordAttack01
+[2020.07.16-13.49.07:921][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Sword/SwordAttack01.SwordAttack01) using current/default (AnimCompress_BitwiseCompressOnly_123) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.07:931][203]LogMaterial: Missing cached shader map for material M_WeaponMaster_01, compiling. 
+[2020.07.16-13.49.08:024][203]LogMaterial: Missing cached shader map for material M_RockSmall_01, compiling. 
+[2020.07.16-13.49.09:683][203]LogTexture: Display: Building textures: T_Debris_Tileable_01 (AutoDXT, 512X512)
+[2020.07.16-13.49.09:711][203]LogMaterial: Missing cached shader map for material M_Debris_Tileable_01, compiling. 
+[2020.07.16-13.49.09:811][203]LogTexture: Display: Building textures: T_LightRay_01 (AutoDXT, 32X512)
+[2020.07.16-13.49.09:818][203]LogMaterial: Missing cached shader map for material M_LightRay_01, compiling. 
+[2020.07.16-13.49.09:850][203]LogTexture: Display: Building textures: T_Shockwave_NormalMap_01 (BC5, 512X512)
+[2020.07.16-13.49.09:905][203]LogMaterial: Missing cached shader map for material M_Shockwave_Refraction_01, compiling. 
+[2020.07.16-13.49.09:948][203]LogMaterial: Missing cached shader map for material M_Ember_Speed_01, compiling. 
+[2020.07.16-13.49.23:262][203]LogTexture: Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2020.07.16-13.49.23:262][203]LogTexture: Display: Building textures: Pistols_A_Norm (BC5, 2048X2048)
+[2020.07.16-13.49.23:262][203]LogTexture: Display: Building textures: Pistols_A_Masks (AutoDXT, 2048X2048)
+[2020.07.16-13.49.23:262][203]LogTexture: Display: Building textures: Pistols_A_Diff (AutoDXT, 2048X2048)
+[2020.07.16-13.49.23:262][203]LogMaterial: Missing cached shader map for material M_Explosion_8x8_A_01, compiling. 
+[2020.07.16-13.49.23:374][203]LogStaticMesh: Building static mesh GrenadeLauncherA_Ammo...
+[2020.07.16-13.49.23:377][203]LogStaticMesh: Built static mesh [0.00s] /Game/GameContent/MilitaryWeapSilver/Weapons/GrenadeLauncherA_Ammo.GrenadeLauncherA_Ammo
+[2020.07.16-13.49.23:380][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave GrenadeLauncher_Reload03...
+[2020.07.16-13.49.23:388][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave GrenadeLauncher_Reload02...
+[2020.07.16-13.49.23:397][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave GrenadeLauncher_Reload01...
+[2020.07.16-13.49.23:405][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_GrenadeLauncher_W.Reload_GrenadeLauncher_W
+[2020.07.16-13.49.23:405][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_GrenadeLauncher_W.Reload_GrenadeLauncher_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.23:407][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire_ST04...
+[2020.07.16-13.49.23:481][203]LogTexture: Display: Building textures: Sniper_Rifle_A_Norm (BC5, 2048X2048)
+[2020.07.16-13.49.23:481][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire_ST03...
+[2020.07.16-13.49.23:554][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire_ST02...
+[2020.07.16-13.49.23:615][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire_ST01...
+[2020.07.16-13.49.23:702][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire04...
+[2020.07.16-13.49.23:737][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire03...
+[2020.07.16-13.49.23:804][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire02...
+[2020.07.16-13.49.23:838][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave RocketLauncherA_Fire01...
+[2020.07.16-13.49.23:876][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_RocketLauncher_W.Fire_RocketLauncher_W
+[2020.07.16-13.49.23:876][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_RocketLauncher_W.Fire_RocketLauncher_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.23:880][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Rifle_Reload03...
+[2020.07.16-13.49.23:888][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Rifle_Reload02...
+[2020.07.16-13.49.23:896][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Rifle_Reload01...
+[2020.07.16-13.49.23:906][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W.Reload_Rifle_Ironsights_W
+[2020.07.16-13.49.23:906][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_Rifle_Ironsights_W.Reload_Rifle_Ironsights_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.23:908][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights
+[2020.07.16-13.49.23:909][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Reload_Rifle_Ironsights.Reload_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_95) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.23:911][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights
+[2020.07.16-13.49.23:912][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Fire_Rifle_Ironsights.Fire_Rifle_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_93) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.23:915][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire_ST05...
+[2020.07.16-13.49.23:950][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire_ST04...
+[2020.07.16-13.49.23:988][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire_ST03...
+[2020.07.16-13.49.24:021][203]LogTexture: Display: Building textures: Sniper_Rifle_A_Masks (AutoDXT, 2048X2048)
+[2020.07.16-13.49.24:021][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire_ST02...
+[2020.07.16-13.49.24:060][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire_ST01...
+[2020.07.16-13.49.24:089][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire06...
+[2020.07.16-13.49.24:111][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire05...
+[2020.07.16-13.49.24:127][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire04...
+[2020.07.16-13.49.24:150][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire03...
+[2020.07.16-13.49.24:169][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire02...
+[2020.07.16-13.49.24:188][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire01...
+[2020.07.16-13.49.24:206][203]LogTexture: Display: Building textures: Sniper_Rifle_A_Diff (AutoDXT, 2048X2048)
+[2020.07.16-13.49.24:206][203]LogMaterial: Missing cached shader map for material M_Pistol_MuzzleFlash_4x1_A, compiling. 
+[2020.07.16-13.49.24:235][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_Pistol_W.Fire_Pistol_W
+[2020.07.16-13.49.24:235][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_Pistol_W.Fire_Pistol_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:317][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Reload_Pistol.Reload_Pistol
+[2020.07.16-13.49.24:318][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Reload_Pistol.Reload_Pistol) using current/default (AnimCompress_BitwiseCompressOnly_117) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:323][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack05.GS_attack05
+[2020.07.16-13.49.24:323][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack05.GS_attack05) using current/default (AnimCompress_BitwiseCompressOnly_147) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:325][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack04.GS_attack04
+[2020.07.16-13.49.24:325][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack04.GS_attack04) using current/default (AnimCompress_BitwiseCompressOnly_145) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:328][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack03.GS_attack03
+[2020.07.16-13.49.24:328][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack03.GS_attack03) using current/default (AnimCompress_BitwiseCompressOnly_143) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:331][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload03...
+[2020.07.16-13.49.24:340][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload02...
+[2020.07.16-13.49.24:351][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload01...
+[2020.07.16-13.49.24:361][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_Shotgun_W.Fire_Shotgun_W
+[2020.07.16-13.49.24:361][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_Shotgun_W.Fire_Shotgun_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:363][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights
+[2020.07.16-13.49.24:364][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Reload_Shotgun_Ironsights.Reload_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_121) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:367][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/AnimStarterPack/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights
+[2020.07.16-13.49.24:367][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/AnimStarterPack/Fire_Shotgun_Ironsights.Fire_Shotgun_Ironsights) using current/default (AnimCompress_BitwiseCompressOnly_119) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:370][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pistol_ReloadSlideRack03...
+[2020.07.16-13.49.24:378][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pistol_ReloadSlideRack02...
+[2020.07.16-13.49.24:387][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pistol_ReloadSlideRack01...
+[2020.07.16-13.49.24:395][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pistol_ReloadMagInsert02...
+[2020.07.16-13.49.24:403][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pistol_ReloadMagInsert01...
+[2020.07.16-13.49.24:409][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pistol_ReloadMagEject02...
+[2020.07.16-13.49.24:419][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Pistol_ReloadMagEject01...
+[2020.07.16-13.49.24:429][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_Pistol_W.Reload_Pistol_W
+[2020.07.16-13.49.24:429][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_Pistol_W.Reload_Pistol_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:431][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave PistolA_Fire_ST06...
+[2020.07.16-13.49.24:472][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WF.Rifle_Aim_WF
+[2020.07.16-13.49.24:472][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WF.Rifle_Aim_WF) using current/default (AnimCompress_BitwiseCompressOnly_73) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:473][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WBR.Rifle_Aim_WBR
+[2020.07.16-13.49.24:473][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WBR.Rifle_Aim_WBR) using current/default (AnimCompress_BitwiseCompressOnly_75) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:476][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WFL.Rifle_Aim_WFL
+[2020.07.16-13.49.24:477][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Rifle/Rifle_Aim_WFL.Rifle_Aim_WFL) using current/default (AnimCompress_BitwiseCompressOnly_71) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:478][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack04.Axe_Attack04
+[2020.07.16-13.49.24:478][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack04.Axe_Attack04) using current/default (AnimCompress_BitwiseCompressOnly_157) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:478][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack03.Axe_Attack03
+[2020.07.16-13.49.24:479][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack03.Axe_Attack03) using current/default (AnimCompress_BitwiseCompressOnly_155) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:481][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack02.Axe_Attack02
+[2020.07.16-13.49.24:481][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack02.Axe_Attack02) using current/default (AnimCompress_BitwiseCompressOnly_153) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:484][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack01.Axe_Attack01
+[2020.07.16-13.49.24:484][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/Axe/Axe_Attack01.Axe_Attack01) using current/default (AnimCompress_BitwiseCompressOnly_151) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.24:490][203]LogStaticMesh: Building static mesh Axe...
+[2020.07.16-13.49.24:511][203]LogStaticMesh: Built static mesh [0.02s] /Game/GameContent/PrototypeMeleWeapons/Axe.Axe
+[2020.07.16-13.49.28:560][203]LogTexture: Display: Building textures: Shotgun_A_Norm (BC5, 2048X2048)
+[2020.07.16-13.49.28:560][203]LogTexture: Display: Building textures: Shotgun_A_Masks (AutoDXT, 2048X2048)
+[2020.07.16-13.49.28:564][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifle_ReloadInsert03...
+[2020.07.16-13.49.28:574][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifle_ReloadInsert02...
+[2020.07.16-13.49.28:583][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifle_ReloadInsert01...
+[2020.07.16-13.49.28:590][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifle_Reload03...
+[2020.07.16-13.49.28:599][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifle_Reload02...
+[2020.07.16-13.49.28:607][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifle_Reload01...
+[2020.07.16-13.49.28:616][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_SniperRifle_Ironsights_W.Reload_SniperRifle_Ironsights_W
+[2020.07.16-13.49.28:616][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_SniperRifle_Ironsights_W.Reload_SniperRifle_Ironsights_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.28:617][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire_ST04...
+[2020.07.16-13.49.28:683][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire_ST03...
+[2020.07.16-13.49.28:760][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire_ST02...
+[2020.07.16-13.49.28:826][203]LogTexture: Display: Building textures: Shotgun_A_Diff (AutoDXT, 2048X2048)
+[2020.07.16-13.49.28:829][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire_ST01...
+[2020.07.16-13.49.28:917][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire04...
+[2020.07.16-13.49.28:952][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire03...
+[2020.07.16-13.49.29:012][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire02...
+[2020.07.16-13.49.29:050][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave SniperRifleA_Fire01...
+[2020.07.16-13.49.29:097][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_SniperRifle_W.Fire_SniperRifle_W
+[2020.07.16-13.49.29:097][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Fire_SniperRifle_W.Fire_SniperRifle_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.32:548][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_Out03...
+[2020.07.16-13.49.34:092][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_Out02...
+[2020.07.16-13.49.34:098][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_Out01...
+[2020.07.16-13.49.34:113][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_In03...
+[2020.07.16-13.49.34:122][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_In02...
+[2020.07.16-13.49.34:129][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave Shotgun_Reload_In01...
+[2020.07.16-13.49.34:137][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_Shotgun_Ironsights_W.Reload_Shotgun_Ironsights_W
+[2020.07.16-13.49.34:137][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MilitaryWeapSilver/Weapons/Animations/Reload_Shotgun_Ironsights_W.Reload_Shotgun_Ironsights_W) using current/default (AnimCompress_RemoveLinearKeys_0) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.34:139][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire_ST04...
+[2020.07.16-13.49.34:197][203]LogAudioDerivedData: Display: Building compressed audio format OGG wave ShotgunA_Fire_ST03...
+[2020.07.16-13.49.34:252][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack02.GS_attack02
+[2020.07.16-13.49.34:252][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack02.GS_attack02) using current/default (AnimCompress_BitwiseCompressOnly_141) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.34:253][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack01.GS_attack01
+[2020.07.16-13.49.34:253][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack01.GS_attack01) using current/default (AnimCompress_BitwiseCompressOnly_139) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.34:257][203]LogStaticMesh: Building static mesh GreatSword...
+[2020.07.16-13.49.34:273][203]LogStaticMesh: Built static mesh [0.02s] /Game/GameContent/PrototypeMeleWeapons/GreatSword.GreatSword
+[2020.07.16-13.49.34:289][203]LogMaterial: Missing cached shader map for material M_AssetPlatform, compiling. 
+[2020.07.16-13.49.34:337][203]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack06.GS_attack06
+[2020.07.16-13.49.34:337][203]LogAnimationCompression: Recompressing (AnimSequence /Game/GameContent/MixamoAnims/GreatSword/GS_attack06.GS_attack06) using current/default (AnimCompress_BitwiseCompressOnly_149) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2020.07.16-13.49.34:341][203]LogAIModule: Creating AISystem for world NewMap
+[2020.07.16-13.49.40:405][203]Cmd: MAP LOAD FILE="H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Maps/NewMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.07.16-13.49.40:407][203]LightingResults: New page: Lighting Build
+[2020.07.16-13.49.41:401][203]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2020.07.16-13.49.41:485][203]LoadErrors: New page: Loading map: NewMap.umap
+[2020.07.16-13.49.41:618][203]MapCheck: New page: Map Check
+[2020.07.16-13.49.41:619][203]LightingResults: New page: Lighting Build
+[2020.07.16-13.49.48:629][203]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.07.16-13.49.49:835][203]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.07.16-13.49.49:954][203]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 119.319ms to complete.
+[2020.07.16-13.49.49:955][203]LogFileHelpers: Loading map 'NewMap' took 10.334
+[2020.07.16-13.51.09:394][540]LogTemp: Repeating last play command: Selected Viewport
+[2020.07.16-13.51.09:416][540]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.07.16-13.51.09:478][540]PIE: New page: PIE session: NewMap (Jul 16, 2020, 5:51:09 AM)
+[2020.07.16-13.51.09:478][540]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_NewMap
+[2020.07.16-13.51.09:504][540]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025899s)
+[2020.07.16-13.51.09:505][540]LogAIModule: Creating AISystem for world NewMap
+[2020.07.16-13.51.09:505][540]LogPlayLevel: PIE: World Init took: (0.001011s)
+[2020.07.16-13.51.09:506][540]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/NewMap.NewMap to /Game/Maps/UEDPIE_0_NewMap.NewMap (0.027294s)
+[2020.07.16-13.51.09:525][540]LogInit: XAudio2 using 'Speakers (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.07.16-13.51.09:533][540]LogInit: FAudioDevice initialized.
+[2020.07.16-13.51.09:566][540]LogLoad: Game class is 'Gameplay_GM_C'
+[2020.07.16-13.51.09:567][540]LogWorld: Bringing World /Game/Maps/UEDPIE_0_NewMap.NewMap up for play (max tick rate 0) at 2020.07.16-09.51.09
+[2020.07.16-13.51.09:567][540]LogWorld: Bringing up level for play took: 0.000706
+[2020.07.16-13.51.21:561][540]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_NewMap 11.458
+[2020.07.16-13.51.28:391][542]Cmd: LevelEditor.ToggleImmersive
+[2020.07.16-13.51.32:393][543]LogRenderer: Reallocating scene render targets to support 1672x940 Format 9 NumSamples 1 (Frame:4).
+[2020.07.16-13.54.17:350][546]LogRenderer: Reallocating scene render targets to support 1920x1080 Format 9 NumSamples 1 (Frame:14365).
+[2020.07.16-13.54.49:732][417]SourceControl: fatal: e:/Program Files/Epic Games/UE_4.18/Engine/Content/: 'e:/Program Files/Epic Games/UE_4.18/Engine/Content/' is outside repository at 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game'
+[2020.07.16-13.55.09:178][417]EditorErrors: Warning: No assets to check in!
+[2020.07.16-13.55.36:086][502]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2020.07.16-13.55.46:300][503]Cmd: QUIT_EDITOR
+[2020.07.16-13.55.53:487][503]LogExit: Preparing to exit.
+[2020.07.16-13.56.03:110][503]LogExit: Editor shut down
+[2020.07.16-13.56.03:112][503]LogExit: Transaction tracking system shut down
+[2020.07.16-13.56.09:612][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.07.16-13.56.09:612][503]LogDirectoryWatcher: A directory notification for 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/' was aborted.
+[2020.07.16-13.56.09:612][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.07.16-13.56.09:612][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
+[2020.07.16-13.56.09:612][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2020.07.16-13.56.09:612][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2020.07.16-13.56.09:612][503]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2020.07.16-13.56.36:761][503]LogExit: Object subsystem successfully closed.
+[2020.07.16-13.56.38:205][503]LogD3D11RHI: Shutdown
+[2020.07.16-13.56.38:270][503]LogD3D11RHI: CleanupD3DDevice
+[2020.07.16-13.56.38:428][503]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.07.16-13.56.49:832][503]LogModuleManager: Shutting down and abandoning module StatsViewer (550)
+[2020.07.16-13.56.49:844][503]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (548)
+[2020.07.16-13.56.49:857][503]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (546)
+[2020.07.16-13.56.49:857][503]LogModuleManager: Shutting down and abandoning module SceneOutliner (544)
+[2020.07.16-13.56.49:869][503]LogModuleManager: Shutting down and abandoning module AddContentDialog (542)
+[2020.07.16-13.56.49:882][503]LogDirectoryWatcher: A directory notification for 'e:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
+[2020.07.16-13.56.49:883][503]LogModuleManager: Shutting down and abandoning module WidgetCarousel (541)
+[2020.07.16-13.56.49:883][503]LogModuleManager: Shutting down and abandoning module EditorWidgets (538)
+[2020.07.16-13.56.49:883][503]LogModuleManager: Shutting down and abandoning module CollectionManager (536)
+[2020.07.16-13.56.49:903][503]LogDirectoryWatcher: A directory notification for 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Collections/' was aborted.
+[2020.07.16-13.56.49:903][503]LogDirectoryWatcher: A directory notification for 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Content/Developers/kidvi/Collections/' was aborted.
+[2020.07.16-13.56.49:903][503]LogDirectoryWatcher: A directory notification for 'H:/Git Hub/shooter900/UE4-Loco-multiplayer-Game/UE4_Loco_Multiplayer/Saved/Collections/' was aborted.
+[2020.07.16-13.56.49:903][503]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
+[2020.07.16-13.56.49:911][503]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
+[2020.07.16-13.56.49:977][503]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
+[2020.07.16-13.56.49:986][503]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
+[2020.07.16-13.56.49:986][503]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
+[2020.07.16-13.56.49:986][503]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
+[2020.07.16-13.56.49:986][503]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
+[2020.07.16-13.56.49:986][503]LogModuleManager: Shutting down and abandoning module BspMode (520)
+[2020.07.16-13.56.49:986][503]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
+[2020.07.16-13.56.49:987][503]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
+[2020.07.16-13.56.49:987][503]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
+[2020.07.16-13.56.50:003][503]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
+[2020.07.16-13.56.50:017][503]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
+[2020.07.16-13.56.50:022][503]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
+[2020.07.16-13.56.50:656][503]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
+[2020.07.16-13.56.50:657][503]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
+[2020.07.16-13.56.50:709][503]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
+[2020.07.16-13.56.50:814][503]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
+[2020.07.16-13.56.50:814][503]LogModuleManager: Shutting down and abandoning module SessionServices (478)
+[2020.07.16-13.56.50:814][503]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
+[2020.07.16-13.56.50:814][503]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
+[2020.07.16-13.56.50:814][503]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
+[2020.07.16-13.56.51:696][503]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
+[2020.07.16-13.56.52:070][503]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
+[2020.07.16-13.56.52:337][503]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
+[2020.07.16-13.56.52:377][503]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
+[2020.07.16-13.56.52:404][503]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
+[2020.07.16-13.56.52:404][503]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
+[2020.07.16-13.56.52:404][503]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
+[2020.07.16-13.56.52:404][503]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
+[2020.07.16-13.56.53:039][503]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
+[2020.07.16-13.56.53:039][503]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
+[2020.07.16-13.56.53:039][503]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
+[2020.07.16-13.56.53:039][503]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
+[2020.07.16-13.56.53:119][503]LogModuleManager: Shutting down and abandoning module MergeActors (446)
+[2020.07.16-13.56.53:258][503]LogModuleManager: Shutting down and abandoning module SizeMap (444)
+[2020.07.16-13.56.53:258][503]LogModuleManager: Shutting down and abandoning module TreeMap (442)
+[2020.07.16-13.56.53:483][503]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
+[2020.07.16-13.56.53:483][503]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
+[2020.07.16-13.56.53:554][503]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
+[2020.07.16-13.56.53:568][503]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
+[2020.07.16-13.56.53:568][503]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
+[2020.07.16-13.56.53:568][503]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
+[2020.07.16-13.56.53:568][503]LogModuleManager: Shutting down and abandoning module XmlParser (428)
+[2020.07.16-13.56.53:583][503]LogModuleManager: Shutting down and abandoning module Blutility (426)
+[2020.07.16-13.56.53:594][503]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
+[2020.07.16-13.56.53:595][503]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
+[2020.07.16-13.56.53:595][503]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
+[2020.07.16-13.56.53:595][503]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
+[2020.07.16-13.56.53:647][503]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
+[2020.07.16-13.56.53:723][503]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
+[2020.07.16-13.56.53:785][503]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
+[2020.07.16-13.56.53:917][503]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
+[2020.07.16-13.56.53:929][503]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
+[2020.07.16-13.56.53:983][503]LogModuleManager: Shutting down and abandoning module AutomationController (406)
+[2020.07.16-13.56.54:013][503]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
+[2020.07.16-13.56.54:045][503]LogModuleManager: Shutting down and abandoning module Layers (402)
+[2020.07.16-13.56.54:128][503]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
+[2020.07.16-13.56.54:128][503]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
+[2020.07.16-13.56.54:151][503]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
+[2020.07.16-13.56.54:184][503]LogModuleManager: Shutting down and abandoning module Persona (394)
+[2020.07.16-13.56.54:262][503]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
+[2020.07.16-13.56.54:262][503]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
+[2020.07.16-13.56.54:262][503]LogModuleManager: Shutting down and abandoning module Kismet (388)
+[2020.07.16-13.56.54:622][503]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
+[2020.07.16-13.56.54:622][503]LogModuleManager: Shutting down and abandoning module Toolbox (384)
+[2020.07.16-13.56.54:622][503]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
+[2020.07.16-13.56.54:678][503]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
+[2020.07.16-13.56.54:755][503]LogModuleManager: Shutting down and abandoning module OutputLog (378)
+[2020.07.16-13.56.54:778][503]LogModuleManager: Shutting down and abandoning module GammaUI (376)
+[2020.07.16-13.56.54:782][503]LogModuleManager: Shutting down and abandoning module Documentation (374)
+[2020.07.16-13.56.54:782][503]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module MovieScene (370)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module PortalServices (362)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
+[2020.07.16-13.56.54:793][503]LogModuleManager: Shutting down and abandoning module AIModule (356)
+[2020.07.16-13.56.54:807][503]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
+[2020.07.16-13.56.54:807][503]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
+[2020.07.16-13.56.54:820][503]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
+[2020.07.16-13.56.54:820][503]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
+[2020.07.16-13.56.54:867][503]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
+[2020.07.16-13.56.54:943][503]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
+[2020.07.16-13.56.54:943][503]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
+[2020.07.16-13.56.54:943][503]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
+[2020.07.16-13.56.54:967][503]LogModuleManager: Shutting down and abandoning module OculusInput (338)
+[2020.07.16-13.56.54:979][503]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
+[2020.07.16-13.56.54:980][503]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
+[2020.07.16-13.56.54:980][503]LogModuleManager: Shutting down and abandoning module CableComponent (332)
+[2020.07.16-13.56.54:989][503]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
+[2020.07.16-13.56.54:990][503]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
+[2020.07.16-13.56.54:990][503]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
+[2020.07.16-13.56.54:990][503]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
+[2020.07.16-13.56.55:053][503]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
+[2020.07.16-13.56.55:054][503]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
+[2020.07.16-13.56.55:054][503]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
+[2020.07.16-13.56.55:054][503]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
+[2020.07.16-13.56.55:063][503]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
+[2020.07.16-13.56.55:063][503]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
+[2020.07.16-13.56.55:078][503]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
+[2020.07.16-13.56.55:078][503]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
+[2020.07.16-13.56.55:078][503]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
+[2020.07.16-13.56.55:109][503]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
+[2020.07.16-13.56.55:143][503]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
+[2020.07.16-13.56.55:144][503]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
+[2020.07.16-13.56.55:144][503]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
+[2020.07.16-13.56.55:144][503]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
+[2020.07.16-13.56.55:168][503]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
+[2020.07.16-13.56.55:192][503]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
+[2020.07.16-13.56.55:192][503]LogModuleManager: Shutting down and abandoning module SourceControl (289)
+[2020.07.16-13.56.55:192][503]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
+[2020.07.16-13.56.55:192][503]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
+[2020.07.16-13.56.55:192][503]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
+[2020.07.16-13.56.55:192][503]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
+[2020.07.16-13.56.55:242][503]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
+[2020.07.16-13.56.55:263][503]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
+[2020.07.16-13.56.55:285][503]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
+[2020.07.16-13.56.55:297][503]LogModuleManager: Shutting down and abandoning module MainFrame (274)
+[2020.07.16-13.56.55:315][503]LogModuleManager: Shutting down and abandoning module HotReload (273)
+[2020.07.16-13.56.55:341][503]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
+[2020.07.16-13.56.55:341][503]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
+[2020.07.16-13.56.55:341][503]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
+[2020.07.16-13.56.55:341][503]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
+[2020.07.16-13.56.55:341][503]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
+[2020.07.16-13.56.55:341][503]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
+[2020.07.16-13.56.55:341][503]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
+[2020.07.16-13.56.55:349][503]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
+[2020.07.16-13.56.55:456][503]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
+[2020.07.16-13.56.55:563][503]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
+[2020.07.16-13.56.55:603][503]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
+[2020.07.16-13.56.55:603][503]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
+[2020.07.16-13.56.55:603][503]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
+[2020.07.16-13.56.55:622][503]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
+[2020.07.16-13.56.56:009][503]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
+[2020.07.16-13.56.56:010][503]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
+[2020.07.16-13.56.56:010][503]LogModuleManager: Shutting down and abandoning module Paper2D (236)
+[2020.07.16-13.56.56:030][503]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
+[2020.07.16-13.56.56:045][503]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
+[2020.07.16-13.56.56:058][503]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
+[2020.07.16-13.56.56:070][503]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
+[2020.07.16-13.56.56:070][503]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
+[2020.07.16-13.56.56:070][503]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
+[2020.07.16-13.56.56:105][503]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
+[2020.07.16-13.56.56:106][503]LogModuleManager: Shutting down and abandoning module Media (221)
+[2020.07.16-13.56.56:112][503]LogModuleManager: Shutting down and abandoning module Overlay (218)
+[2020.07.16-13.56.56:112][503]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
+[2020.07.16-13.56.56:112][503]LogModuleManager: Shutting down and abandoning module VREditor (214)
+[2020.07.16-13.56.56:210][503]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
+[2020.07.16-13.56.56:233][503]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
+[2020.07.16-13.56.56:233][503]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
+[2020.07.16-13.56.56:290][503]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
+[2020.07.16-13.56.56:297][503]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
+[2020.07.16-13.56.56:304][503]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
+[2020.07.16-13.56.56:304][503]LogModuleManager: Shutting down and abandoning module UMG (200)
+[2020.07.16-13.56.56:323][503]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
+[2020.07.16-13.56.56:358][503]LogModuleManager: Shutting down and abandoning module Sequencer (198)
+[2020.07.16-13.56.56:390][503]LogModuleManager: Shutting down and abandoning module MessageLog (195)
+[2020.07.16-13.56.56:390][503]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
+[2020.07.16-13.56.56:445][503]LogModuleManager: Shutting down and abandoning module Slate (188)
+[2020.07.16-13.56.56:445][503]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
+[2020.07.16-13.56.56:446][503]LogModuleManager: Shutting down and abandoning module MRMesh (184)
+[2020.07.16-13.56.56:446][503]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
+[2020.07.16-13.56.56:446][503]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
+[2020.07.16-13.56.56:446][503]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
+[2020.07.16-13.56.56:446][503]LogModuleManager: Shutting down and abandoning module Networking (176)
+[2020.07.16-13.56.56:446][503]LogModuleManager: Shutting down and abandoning module Core (172)
+[2020.07.16-13.56.56:446][503]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
+[2020.07.16-13.56.56:455][503]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
+[2020.07.16-13.56.56:456][503]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2020.07.16-13.56.56:456][503]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
+[2020.07.16-13.56.56:467][503]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
+[2020.07.16-13.56.56:488][503]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
+[2020.07.16-13.56.56:488][503]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
+[2020.07.16-13.56.56:503][503]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
+[2020.07.16-13.56.56:503][503]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
+[2020.07.16-13.56.56:523][503]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
+[2020.07.16-13.56.56:538][503]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
+[2020.07.16-13.56.56:575][503]LogDerivedDataCache: Shutdown
+[2020.07.16-13.56.56:575][503]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
+[2020.07.16-13.56.56:576][503]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
+[2020.07.16-13.56.56:592][503]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
+[2020.07.16-13.56.56:605][503]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
+[2020.07.16-13.56.56:609][503]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
+[2020.07.16-13.56.56:617][503]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
+[2020.07.16-13.56.56:642][503]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
+[2020.07.16-13.56.56:642][503]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
+[2020.07.16-13.56.56:642][503]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
+[2020.07.16-13.56.56:642][503]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
+[2020.07.16-13.56.56:654][503]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
+[2020.07.16-13.56.56:654][503]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
+[2020.07.16-13.56.56:654][503]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Messaging (105)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module InputCore (64)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module Settings (62)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module SteamVR (58)
+[2020.07.16-13.56.56:655][503]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
+[2020.07.16-13.56.56:681][503]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
+[2020.07.16-13.56.56:681][503]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
+[2020.07.16-13.56.56:682][503]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2020.07.16-13.56.56:682][503]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.07.16-13.56.56:682][503]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.07.16-13.56.56:717][503]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.07.16-13.56.56:736][503]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.07.16-13.56.56:736][503]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.07.16-13.56.56:750][503]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6E9CBD6B-4587-87AD-7F44-45A25A2C79A7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=af4be49a490cf809d37e5ab40f8fbf34%7C1393e4652394414eb46eefdb9bae284b%7Ce580d571-885f-4cfc-abb0-a1362564cdde&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.07.16-13.56.56:752][503]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.07.16-13.56.56:770][503]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2020.07.16-13.56.56:789][503]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2020.07.16-13.56.56:790][503]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2020.07.16-13.56.56:809][503]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2020.07.16-13.56.56:809][503]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2020.07.16-13.56.56:809][503]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2020.07.16-13.56.56:809][503]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2020.07.16-13.56.56:844][503]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2020.07.16-13.56.56:871][503]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2020.07.16-13.56.56:871][503]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2020.07.16-13.56.56:871][503]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2020.07.16-13.56.56:871][503]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2020.07.16-13.56.56:886][503]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2020.07.16-13.56.56:886][503]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2020.07.16-13.56.56:903][503]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2020.07.16-13.56.56:903][503]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.07.16-13.56.56:911][503]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.07.16-13.56.56:924][503]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.07.16-13.56.57:069][503]LogExit: Exiting.
+[2020.07.16-13.56.57:085][503]Log file closed, 07/16/20 09:56:57
